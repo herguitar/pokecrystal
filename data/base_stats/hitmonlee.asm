@@ -1,22 +1,22 @@
 	dw HITMONLEE ; 106
 
-	db  50, 120,  53,  87,  35, 110
+	db  95, 117,  80,  92,  65,  70
 	;   hp  atk  def  spd  sat  sdf
 	db %01100000 ; EV Yield
 
-	db FIGHTING, FIGHTING
+	db GROUND, DARK
 	db 45 ; catch rate
-	db 139 ; base exp
+	db 234 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
-	db 0 ; gender
+	db 127 ; gender
 	db 100 ; unknown
-	db 25 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db MEDIUM_FAST ; growth rate
-	dn HUMANSHAPE, HUMANSHAPE ; egg groups
+	db MEDIUM_SLOW ; growth rate
+	dn FIELD, FIELD ; egg groups
 
 	; tmhm
 	tmhm DYNAMICPUNCH, HEADBUTT, CURSE, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, RETURN, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, DETECT, REST, ATTRACT, THIEF, STRENGTH

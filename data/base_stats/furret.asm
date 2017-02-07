@@ -1,14 +1,14 @@
 	dw FURRET ; 162
 
-	db  85,  76,  64,  90,  45,  55
+	db  85, 115,  75,  82,  55,  75
 	;   hp  atk  def  spd  sat  sdf
 	db %00011000 ; EV Yield
 
-	db NORMAL, NORMAL
+	db ROCK, ROCK
 	db 90 ; catch rate
-	db 116 ; base exp
-	db BERRY ; item 1
-	db GOLD_BERRY ; item 2
+	db 170 ; base exp
+	db NO_ITEM ; item 1
+	db NO_ITEM ; item 2
 	db 127 ; gender
 	db 100 ; unknown
 	db 15 ; step cycles to hatch

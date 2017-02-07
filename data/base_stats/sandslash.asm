@@ -1,12 +1,12 @@
 	dw SANDSLASH ; 028
 
-	db  75, 100, 110,  65,  45,  55
+	db  80,  80,  80,  80,  80,  80
 	;   hp  atk  def  spd  sat  sdf
 	db %00110000 ; EV Yield
 
-	db GROUND, GROUND
-	db 90 ; catch rate
-	db 163 ; base exp
+	db ICE, ICE
+	db 75 ; catch rate
+	db 168 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -16,7 +16,7 @@
 	dn 6, 6 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
 	db MEDIUM_FAST ; growth rate
-	dn FIELD, FIELD ; egg groups
+	dn FAIRYEGG, INANIMATE ; egg groups
 
 	; tmhm
 	tmhm DYNAMICPUNCH, HEADBUTT, CURSE, ROLLOUT, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, HYPER_BEAM, PROTECT, ENDURE, FRUSTRATION, IRON_TAIL, EARTHQUAKE, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SANDSTORM, SWIFT, DEFENSE_CURL, DETECT, REST, ATTRACT, THIEF, FURY_CUTTER, CUT, STRENGTH

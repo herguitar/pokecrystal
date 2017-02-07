@@ -1,12 +1,12 @@
 	dw VENOMOTH ; 049
 
-	db  70,  65,  60,  90,  90,  75
+	db  82,  80,  86,  72,  85,  75
 	;   hp  atk  def  spd  sat  sdf
 	db %00010100 ; EV Yield
 
-	db BUG, POISON
-	db 75 ; catch rate
-	db 138 ; base exp
+	db FAIRY, FAIRY
+	db 140 ; catch rate
+	db 168 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -16,7 +16,7 @@
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
 	db MEDIUM_FAST ; growth rate
-	dn INSECT, INSECT ; egg groups
+	dn FAIRYEGG, FAIRYEGG ; egg groups
 
 	; tmhm
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, HYPER_BEAM, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, PSYCHIC, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, SWIFT, REST, ATTRACT, THIEF, FLASH

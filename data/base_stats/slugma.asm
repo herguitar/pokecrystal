@@ -1,12 +1,12 @@
 	dw SLUGMA ; 218
 
-	db  40,  40,  40,  20,  70,  40
+	db 100, 100, 125,  50, 110,  50
 	;   hp  atk  def  spd  sat  sdf
 	db %00001000 ; EV Yield
 
-	db FIRE, FIRE
-	db 190 ; catch rate
-	db 78 ; base exp
+	db GRASS, GRASS
+	db 30 ; catch rate
+	db 187 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -16,7 +16,7 @@
 	dn 5, 5 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
 	db MEDIUM_FAST ; growth rate
-	dn AMORPHOUS, AMORPHOUS ; egg groups
+	dn PLANT, PLANT ; egg groups
 
 	; tmhm
 	tmhm CURSE, ROLLOUT, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, RETURN, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, FIRE_BLAST, DEFENSE_CURL, REST, ATTRACT, FLAMETHROWER

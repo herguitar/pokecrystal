@@ -1,22 +1,22 @@
 	dw ZAPDOS ; 145
 
-	db  90,  90,  85, 100, 125,  90
+	db  74, 108, 133,  32,  83,  65
 	;   hp  atk  def  spd  sat  sdf
 	db %00001110 ; EV Yield
 
-	db ELECTRIC, FLYING
-	db 3 ; catch rate
-	db 216 ; base exp
+	db WATER, ROCK
+	db 45 ; catch rate
+	db 173 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
-	db 255 ; gender
+	db 31 ; gender
 	db 100 ; unknown
-	db 80 ; step cycles to hatch
+	db 30 ; step cycles to hatch
 	db 5 ; unknown
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db SLOW ; growth rate
-	dn NO_EGGS, NO_EGGS ; egg groups
+	db MEDIUM_FAST ; growth rate
+	dn AMPHIBIAN, INVERTEBRATE ; egg groups
 
 	; tmhm
 	tmhm CURSE, ROAR, TOXIC, ZAP_CANNON, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, HYPER_BEAM, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, THUNDER, RETURN, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SANDSTORM, SWIFT, DETECT, REST, STEEL_WING, FLY, FLASH, THUNDERBOLT

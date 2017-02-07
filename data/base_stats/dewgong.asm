@@ -1,12 +1,12 @@
 	dw DEWGONG ; 087
 
-	db  90,  70,  80,  70,  70,  95
+	db  60,  85,  49,  60,  60,  49
 	;   hp  atk  def  spd  sat  sdf
 	db %00000110 ; EV Yield
 
-	db WATER, ICE
-	db 75 ; catch rate
-	db 176 ; base exp
+	db ELECTRIC, ELECTRIC
+	db 120 ; catch rate
+	db 127 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -15,8 +15,8 @@
 	db 5 ; unknown
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db MEDIUM_FAST ; growth rate
-	dn AMPHIBIAN, FIELD ; egg groups
+	db MEDIUM_SLOW ; growth rate
+	dn FIELD, FIELD ; egg groups
 
 	; tmhm
 	tmhm HEADBUTT, CURSE, TOXIC, HIDDEN_POWER, SNORE, BLIZZARD, HYPER_BEAM, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, REST, ATTRACT, SURF, WHIRLPOOL, WATERFALL, ICE_BEAM

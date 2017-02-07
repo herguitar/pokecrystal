@@ -1,12 +1,12 @@
 	dw MANKEY ; 056
 
-	db  40,  80,  35,  70,  35,  45
+	db  83, 106,  65,  85,  86,  65
 	;   hp  atk  def  spd  sat  sdf
 	db %01000000 ; EV Yield
 
-	db FIGHTING, FIGHTING
-	db 190 ; catch rate
-	db 74 ; base exp
+	db POISON, FIGHTING
+	db 75 ; catch rate
+	db 172 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -16,7 +16,7 @@
 	dn 5, 5 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
 	db MEDIUM_FAST ; growth rate
-	dn FIELD, FIELD ; egg groups
+	dn HUMANSHAPE, HUMANSHAPE ; egg groups
 
 	; tmhm
 	tmhm DYNAMICPUNCH, HEADBUTT, CURSE, TOXIC, ROCK_SMASH, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, IRON_TAIL, THUNDER, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, ICE_PUNCH, SWAGGER, SLEEP_TALK, SWIFT, DEFENSE_CURL, THUNDERPUNCH, DETECT, REST, ATTRACT, THIEF, FIRE_PUNCH, STRENGTH, THUNDERBOLT

@@ -1,22 +1,22 @@
 	dw KABUTO ; 140
 
-	db  30,  80,  90,  55,  55,  45
+	db  50,  30,  55,  20,  65,  55
 	;   hp  atk  def  spd  sat  sdf
 	db %00100000 ; EV Yield
 
-	db ROCK, WATER
-	db 45 ; catch rate
-	db 119 ; base exp
+	db GHOST, FIRE
+	db 190 ; catch rate
+	db 55 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
-	db 31 ; gender
+	db 127 ; gender
 	db 100 ; unknown
-	db 30 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown
 	dn 5, 5 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db MEDIUM_FAST ; growth rate
-	dn AMPHIBIAN, INVERTEBRATE ; egg groups
+	db MEDIUM_SLOW ; growth rate
+	dn AMORPHOUS, AMORPHOUS ; egg groups
 
 	; tmhm
 	tmhm CURSE, ROLLOUT, TOXIC, ROCK_SMASH, HIDDEN_POWER, SNORE, BLIZZARD, ICY_WIND, PROTECT, RAIN_DANCE, GIGA_DRAIN, ENDURE, FRUSTRATION, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SANDSTORM, REST, ATTRACT, THIEF, ICE_BEAM

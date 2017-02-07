@@ -40,7 +40,7 @@ def get_pokemon_dimensions(name):
         if name.startswith('unown_'):
             name = 'unown'
         base_stats = get_base_stats()
-        start = base_stats.find('\tdb ' + name.upper())
+        start = base_stats.find('\tdw ' + name.upper())
         start = base_stats.find('\tdn ', start)
         end = base_stats.find('\n', start)
         line = base_stats[start:end].replace(',', ' ')

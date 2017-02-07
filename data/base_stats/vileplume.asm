@@ -1,12 +1,12 @@
 	dw VILEPLUME ; 045
 
-	db  75,  80,  85,  50, 110,  90
+	db  57,  80,  91,  75,  80,  87
 	;   hp  atk  def  spd  sat  sdf
 	db %00001110 ; EV Yield
 
-	db GRASS, POISON
-	db 45 ; catch rate
-	db 184 ; base exp
+	db STEEL, FAIRY
+	db 75 ; catch rate
+	db 165 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -15,8 +15,8 @@
 	db 5 ; unknown
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db MEDIUM_SLOW ; growth rate
-	dn PLANT, PLANT ; egg groups
+	db FAST ; growth rate
+	dn INANIMATE, INANIMATE ; egg groups
 
 	; tmhm
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, HYPER_BEAM, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, REST, ATTRACT, CUT, FLASH

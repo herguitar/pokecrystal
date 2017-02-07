@@ -1,22 +1,22 @@
 	dw ARTICUNO ; 144
 
-	db  90,  85, 100,  85,  95, 125
+	db  54,  78, 103,  22,  53,  45
 	;   hp  atk  def  spd  sat  sdf
 	db %00000111 ; EV Yield
 
-	db ICE, FLYING
-	db 3 ; catch rate
-	db 215 ; base exp
+	db WATER, ROCK
+	db 45 ; catch rate
+	db 71 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
-	db 255 ; gender
+	db 31 ; gender
 	db 100 ; unknown
-	db 80 ; step cycles to hatch
+	db 30 ; step cycles to hatch
 	db 5 ; unknown
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db SLOW ; growth rate
-	dn NO_EGGS, NO_EGGS ; egg groups
+	db MEDIUM_FAST ; growth rate
+	dn AMPHIBIAN, INVERTEBRATE ; egg groups
 
 	; tmhm
 	tmhm CURSE, ROAR, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, BLIZZARD, HYPER_BEAM, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, RETURN, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SANDSTORM, SWIFT, DETECT, REST, STEEL_WING, FLY, ICE_BEAM

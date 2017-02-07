@@ -1,14 +1,14 @@
 	dw FEAROW ; 022
 
-	db  65,  90,  65, 100,  61,  61
+	db  57,  82,  95,  36,  55,  75
 	;   hp  atk  def  spd  sat  sdf
 	db %00011000 ; EV Yield
 
-	db NORMAL, FLYING
-	db 90 ; catch rate
-	db 162 ; base exp
+	db BUG, ELECTRIC
+	db 120 ; catch rate
+	db 140 ; base exp
 	db NO_ITEM ; item 1
-	db SHARP_BEAK ; item 2
+	db NO_ITEM ; item 2
 	db 127 ; gender
 	db 100 ; unknown
 	db 15 ; step cycles to hatch
@@ -16,7 +16,7 @@
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
 	db MEDIUM_FAST ; growth rate
-	dn AVIAN, AVIAN ; egg groups
+	dn INSECT, INSECT ; egg groups
 
 	; tmhm
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SNORE, HYPER_BEAM, PROTECT, ENDURE, FRUSTRATION, RETURN, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, DETECT, REST, ATTRACT, THIEF, STEEL_WING, FLY

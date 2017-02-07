@@ -1,12 +1,12 @@
 	dw BELLOSSOM ; 182
 
-	db  75,  80,  95,  50,  90, 100
+	db  80,  95,  82,  75,  60,  82
 	;   hp  atk  def  spd  sat  sdf
 	db %00000111 ; EV Yield
 
-	db GRASS, GRASS
-	db 45 ; catch rate
-	db 184 ; base exp
+	db POISON, POISON
+	db 60 ; catch rate
+	db 166 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender
@@ -15,8 +15,8 @@
 	db 5 ; unknown
 	dn 7, 7 ; frontpic dimensions
 	db 0, 0, 0, 0 ; padding
-	db MEDIUM_SLOW ; growth rate
-	dn PLANT, PLANT ; egg groups
+	db MEDIUM_FAST ; growth rate
+	dn INANIMATE, INANIMATE ; egg groups
 
 	; tmhm
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, HYPER_BEAM, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, REST, ATTRACT, CUT, FLASH

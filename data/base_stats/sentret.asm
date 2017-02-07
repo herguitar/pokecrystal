@@ -1,14 +1,14 @@
 	dw SENTRET ; 161
 
-	db  35,  46,  34,  20,  35,  45
+	db  75, 115,  65, 112,  55,  65
 	;   hp  atk  def  spd  sat  sdf
 	db %01000000 ; EV Yield
 
-	db NORMAL, NORMAL
-	db 255 ; catch rate
-	db 57 ; base exp
+	db ROCK, ROCK
+	db 90 ; catch rate
+	db 170 ; base exp
 	db NO_ITEM ; item 1
-	db BERRY ; item 2
+	db NO_ITEM ; item 2
 	db 127 ; gender
 	db 100 ; unknown
 	db 15 ; step cycles to hatch
