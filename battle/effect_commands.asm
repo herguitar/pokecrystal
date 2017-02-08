@@ -1232,7 +1232,7 @@ BattleCommand_Critical: ; 34631
 .Item:
 	ld c, 0
 
-	cp CHANSEY
+	cp METAGROSS
 	jr nz, .Farfetchd
 	ld a, [hl]
 	cp LUCKY_PUNCH
@@ -1243,7 +1243,7 @@ BattleCommand_Critical: ; 34631
 	jr .Tally
 
 .Farfetchd:
-	cp FARFETCH_D
+	cp MIENSHAO
 	jr nz, .FocusEnergy
 	ld a, [hl]
 	cp STICK
@@ -3008,8 +3008,8 @@ ThickClubBoost: ; 353b5
 ; it's holding a Thick Club, double it.
 	push bc
 	push de
-	ld b, CUBONE
-	ld c, MAROWAK
+	ld b, SANDILE
+	ld c, KROKOROK
 	ld d, THICK_CLUB
 	call SpeciesItemBoost
 	pop de
@@ -6630,7 +6630,7 @@ BattleCommand_Teleport: ; 36778
 	jr z, .failed
 	cp BATTLETYPE_TRAP
 	jr z, .failed
-	cp BATTLETYPE_CELEBI
+	cp BATTLETYPE_COFAGRIGUS
 	jr z, .failed
 	cp BATTLETYPE_SUICUNE
 	jr z, .failed
@@ -6729,7 +6729,7 @@ BattleCommand_ForceSwitch: ; 3680f
 	jp z, .fail
 	cp BATTLETYPE_TRAP
 	jp z, .fail
-	cp BATTLETYPE_CELEBI
+	cp BATTLETYPE_COFAGRIGUS
 	jp z, .fail
 	cp BATTLETYPE_SUICUNE
 	jp z, .fail

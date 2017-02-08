@@ -1,4 +1,4 @@
-	dw CLEFFA ; 173
+	dw TRAPINCH ; 173
 
 	db  45, 100,  45,  10,  45,  45
 	;   hp  atk  def  spd  sat  sdf

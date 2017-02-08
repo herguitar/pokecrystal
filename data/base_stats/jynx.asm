@@ -1,4 +1,4 @@
-	dw JYNX ; 124
+	dw BRONZONG ; 124
 
 	db  67,  89, 116,  33,  79, 116
 	;   hp  atk  def  spd  sat  sdf

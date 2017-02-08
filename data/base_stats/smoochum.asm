@@ -1,4 +1,4 @@
-	dw SMOOCHUM ; 238
+	dw FEEBAS ; 238
 
 	db  20,  15,  20,  80,  10,  55
 	;   hp  atk  def  spd  sat  sdf

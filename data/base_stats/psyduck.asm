@@ -1,4 +1,4 @@
-	dw PSYDUCK ; 054
+	dw HAWLUCHA ; 054
 
 	db  78,  92,  75, 118,  74,  63
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw NOCTOWL ; 164
+	dw DARMANITAN ; 164
 
 	db 105, 140,  55,  95,  30,  55
 	;   hp  atk  def  spd  sat  sdf

@@ -124,7 +124,7 @@ IlexForestFarfetchdScript:
 	writetext Text_ItsTheMissingPokemon
 	buttonsound
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry MIENSHAO
 	waitbutton
 	closetext
 	applymovement ILEXFOREST_FARFETCHD, MovementData_Farfetchd_Pos1_Pos2
@@ -332,7 +332,7 @@ IlexForestFarfetchdScript:
 	faceplayer
 	opentext
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry MIENSHAO
 	waitbutton
 	closetext
 	end
@@ -341,7 +341,7 @@ IlexForestFarfetchdScript:
 	faceplayer
 	opentext
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry MIENSHAO
 	waitbutton
 	closetext
 	checkcode VAR_FACING
@@ -362,7 +362,7 @@ IlexForestCharcoalMasterScript:
 	setevent EVENT_ILEX_FOREST_FARFETCHD
 	setevent EVENT_ILEX_FOREST_APPRENTICE
 	setevent EVENT_ILEX_FOREST_CHARCOAL_MASTER
-	clearevent EVENT_CHARCOAL_KILN_FARFETCH_D
+	clearevent EVENT_CHARCOAL_KILN_MIENSHAO
 	clearevent EVENT_CHARCOAL_KILN_APPRENTICE
 	clearevent EVENT_CHARCOAL_KILN_BOSS
 	end
@@ -471,7 +471,7 @@ MapIlexForestSignpost4Script:
 	pause 20
 	clearflag ENGINE_HAVE_EXAMINED_GS_BALL
 	special Special_CelebiShrineEvent
-	loadwildmon CELEBI, 30
+	loadwildmon COFAGRIGUS, 30
 	startbattle
 	reloadmapafterbattle
 	pause 20

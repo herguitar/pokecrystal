@@ -26,12 +26,12 @@ VioletPokeCenter1F_ElmsAideScript:
 	iffalse .RefusedEgg
 	checkcode VAR_PARTYCOUNT
 	if_equal PARTY_LENGTH, .PartyFull
-	giveegg TOGEPI, 5
+	giveegg FLYGON, 5
 	stringtotext .eggname, $1
 	scall .AideGivesEgg
-	setevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	setevent EVENT_GOT_FLYGON_EGG_FROM_ELMS_AIDE
 	clearevent EVENT_ELMS_AIDE_IN_LAB
-	clearevent EVENT_TOGEPI_HATCHED
+	clearevent EVENT_FLYGON_HATCHED
 	domaptrigger ROUTE_32, $1
 	writetext UnknownText_0x695c5
 	waitbutton

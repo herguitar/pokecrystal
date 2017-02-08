@@ -137,7 +137,7 @@ Bug_catcherArnie1Script:
 	opentext
 	checkflag ENGINE_ARNIE
 	iftrue UnknownScript_0x19c9bb
-	checkflag ENGINE_YANMA_SWARM
+	checkflag ENGINE_MUDKIP_SWARM
 	iftrue UnknownScript_0x19ca2f
 	checkcellnum PHONE_BUG_CATCHER_ARNIE
 	iftrue UnknownScript_0x19c90f
@@ -401,7 +401,7 @@ Bug_catcherArnie1BeatenText:
 	done
 
 UnknownText_0x19cdf6:
-	text "My VENONAT won me"
+	text "My SWIRLIX won me"
 	line "the Bug-Catching"
 
 	para "Contest at the"
@@ -410,7 +410,7 @@ UnknownText_0x19cdf6:
 
 UnknownText_0x19ce38:
 	text "Wow… Look at all"
-	line "those YANMA!"
+	line "those MUDKIP!"
 
 	para "I'm so blown away,"
 	line "I can't move."

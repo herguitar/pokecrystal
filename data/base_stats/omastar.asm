@@ -1,4 +1,4 @@
-	dw OMASTAR ; 139
+	dw YAMASK ; 139
 
 	db  38,  30,  85,  30,  55,  65
 	;   hp  atk  def  spd  sat  sdf

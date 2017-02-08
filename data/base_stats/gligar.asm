@@ -1,4 +1,4 @@
-	dw GLIGAR ; 207
+	dw CHINGLING ; 207
 
 	db  45,  30,  50,  45,  65,  50
 	;   hp  atk  def  spd  sat  sdf

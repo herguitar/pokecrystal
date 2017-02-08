@@ -17,7 +17,7 @@ MountMortarB1F_MapScriptHeader:
 BlackBeltScript_0x7e1f6:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TYROGUE_FROM_KIYO
+	checkevent EVENT_GOT_SKIDDO_FROM_KIYO
 	iftrue UnknownScript_0x7e231
 	checkevent EVENT_BEAT_BLACKBELT_KIYO
 	iftrue UnknownScript_0x7e217
@@ -39,8 +39,8 @@ UnknownScript_0x7e217:
 	writetext UnknownText_0x7e355
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke TYROGUE, 10
-	setevent EVENT_GOT_TYROGUE_FROM_KIYO
+	givepoke SKIDDO, 10
+	setevent EVENT_GOT_SKIDDO_FROM_KIYO
 UnknownScript_0x7e231:
 	writetext UnknownText_0x7e36a
 	waitbutton
@@ -113,11 +113,11 @@ UnknownText_0x7e2c0:
 
 UnknownText_0x7e355:
 	text "<PLAYER> received"
-	line "TYROGUE."
+	line "SKIDDO."
 	done
 
 UnknownText_0x7e36a:
-	text "TYROGUE is a"
+	text "SKIDDO is a"
 	line "fighting-type."
 
 	para "It evolves into a"

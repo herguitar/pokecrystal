@@ -1,4 +1,4 @@
-	dw MAGMAR ; 126
+	dw DHELMISE ; 126
 
 	db  70, 131, 100,  40,  86,  90
 	;   hp  atk  def  spd  sat  sdf

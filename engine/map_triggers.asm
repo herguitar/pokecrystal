@@ -67,8 +67,8 @@ ENDM
 	trigger_def RUINS_OF_ALPH_OUTSIDE,                  wRuinsOfAlphOutsideTrigger
 	trigger_def RUINS_OF_ALPH_RESEARCH_CENTER,          wRuinsOfAlphResearchCenterTrigger
 	trigger_def RUINS_OF_ALPH_HO_OH_CHAMBER,            wRuinsOfAlphHoOhChamberTrigger
-	trigger_def RUINS_OF_ALPH_KABUTO_CHAMBER,           wRuinsOfAlphKabutoChamberTrigger
-	trigger_def RUINS_OF_ALPH_OMANYTE_CHAMBER,          wRuinsOfAlphOmanyteChamberTrigger
+	trigger_def RUINS_OF_ALPH_LITWICK_CHAMBER,           wRuinsOfAlphKabutoChamberTrigger
+	trigger_def RUINS_OF_ALPH_BRAVIARY_CHAMBER,          wRuinsOfAlphOmanyteChamberTrigger
 	trigger_def RUINS_OF_ALPH_AERODACTYL_CHAMBER,       wRuinsOfAlphAerodactylChamberTrigger
 	trigger_def RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberTrigger
 	trigger_def MAHOGANY_MART_1F,                       wMahoganyMart1FTrigger

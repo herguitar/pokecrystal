@@ -354,7 +354,7 @@ GetCelebiSpriteTile: ; 49bae
 ; 49bf3
 
 CelebiEvent_SetBattleType: ; 49bf3
-	ld a, BATTLETYPE_CELEBI
+	ld a, BATTLETYPE_COFAGRIGUS
 	ld [BattleType], a
 	ret
 

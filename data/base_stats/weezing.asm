@@ -1,4 +1,4 @@
-	dw WEEZING ; 110
+	dw METANG ; 110
 
 	db  60,  75, 100,  50,  55,  80
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw BLISSEY ; 242
+	dw CLAWITZER ; 242
 
 	db 71,  73,  88,  59,  120, 89
 	;   hp  atk  def  spd  sat  sdf

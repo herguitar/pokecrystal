@@ -178,16 +178,16 @@ GoldenrodGameCornerPokemonVendor:
 	if_equal $2, CeladonPrizeRoom_notenoughcoins
 	checkcode VAR_PARTYCOUNT
 	if_equal $6, CeladonPrizeRoom_notenoughroom
-	pokenamemem LARVITAR, $0
+	pokenamemem PORYGONZ, $0
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_cancel
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	writebyte LARVITAR
+	writebyte PORYGONZ
 	special Special_GameCornerPrizeMonCheckDex
-	givepoke LARVITAR, 40
+	givepoke PORYGONZ, 40
 	takecoins 8888
 	jump .loop
 
@@ -204,7 +204,7 @@ GoldenrodGameCornerPokemonVendor:
 	db 4 ; items
 	db "PIKACHU    2222@"
 	db "PORYGON    5555@"
-	db "LARVITAR   8888@"
+	db "PORYGONZ   8888@"
 	db "CANCEL@"
 
 

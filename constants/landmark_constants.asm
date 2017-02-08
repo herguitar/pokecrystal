@@ -66,7 +66,7 @@ KANTO_LANDMARK EQU const_value
 	const UNDERGROUND       ; 3b
 	const ROUTE_6           ; 3c
 	const VERMILION_CITY    ; 3d
-	const DIGLETTS_CAVE     ; 3e
+	const SYLVEONS_CAVE     ; 3e
 	const ROUTE_7           ; 3f
 	const ROUTE_8           ; 40
 	const ROUTE_9           ; 41

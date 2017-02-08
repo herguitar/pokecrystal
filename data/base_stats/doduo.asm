@@ -1,4 +1,4 @@
-	dw DODUO ; 084
+	dw STUFFUL ; 084
 
 	db  70,  75,  50,  50,  45,  50
 	;   hp  atk  def  spd  sat  sdf

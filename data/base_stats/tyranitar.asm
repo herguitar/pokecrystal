@@ -1,4 +1,4 @@
-	dw TYRANITAR ; 248
+	dw NUMENTHUR ; 248
 
 	db 100, 134, 110,  61,  95, 100
 	;   hp  atk  def  spd  sat  sdf

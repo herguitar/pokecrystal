@@ -1,4 +1,4 @@
-	dw MEOWTH ; 052
+	dw MEDITITE ; 052
 
 	db  30,  40,  55,  60,  40,  55
 	;   hp  atk  def  spd  sat  sdf

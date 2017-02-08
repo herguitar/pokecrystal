@@ -1,4 +1,4 @@
-	dw CHARMANDER ; 004
+	dw VOLCARONA ; 004
 
 	db  85,  60,  65, 100, 135, 105
 	;   hp  atk  def  spd  sat  sdf

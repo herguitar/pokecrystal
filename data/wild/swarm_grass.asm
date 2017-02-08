@@ -34,25 +34,25 @@
 	; morn
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
+	db 12, MUDKIP
+	db 14, MUDKIP
 	db 14, PIDGEY
 	db 10, DITTO
 	db 10, DITTO
 	; day
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
+	db 12, MUDKIP
+	db 14, MUDKIP
 	db 14, PIDGEY
 	db 10, DITTO
 	db 10, DITTO
 	; nite
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
-	db 14, HOOTHOOT
+	db 12, MUDKIP
+	db 14, MUDKIP
+	db 14, DARUMAKA
 	db 10, DITTO
 	db 10, DITTO
 

@@ -1,4 +1,4 @@
-	dw FURRET ; 162
+	dw LYCANROC_N ; 162
 
 	db  85, 115,  75,  82,  55,  75
 	;   hp  atk  def  spd  sat  sdf

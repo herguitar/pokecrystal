@@ -1,4 +1,4 @@
-	dw YANMA ; 193
+	dw MUDKIP ; 193
 
 	db  50,  70,  50,  40,  50,  50
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw MANTINE ; 226
+	dw LUDICOLO ; 226
 
 	db  80,  70,  70,  70,  90, 100
 	;   hp  atk  def  spd  sat  sdf

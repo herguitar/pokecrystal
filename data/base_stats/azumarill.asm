@@ -1,4 +1,4 @@
-	dw AZUMARILL ; 184
+	dw TOXAPEX ; 184
 
 	db  50,  63, 152,  35,  53, 142
 	;   hp  atk  def  spd  sat  sdf

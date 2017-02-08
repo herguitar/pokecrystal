@@ -1,6 +1,6 @@
 const_value set 2
-	const RUINSOFALPHKABUTOCHAMBER_RECEPTIONIST
-	const RUINSOFALPHKABUTOCHAMBER_SCIENTIST
+	const RUINSOFALPHLITWICKCHAMBER_RECEPTIONIST
+	const RUINSOFALPHLITWICKCHAMBER_SCIENTIST
 
 RuinsofAlphKabutoChamber_MapScriptHeader:
 .MapTriggers:
@@ -18,7 +18,7 @@ RuinsofAlphKabutoChamber_MapScriptHeader:
 	dbw MAPCALLBACK_TILES, UnknownScript_0x58737
 
 UnknownScript_0x5872b:
-	checkevent EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LITWICK_CHAMBER
 	iftrue UnknownScript_0x58732
 	end
 
@@ -32,11 +32,11 @@ UnknownScript_0x58736:
 	end
 
 UnknownScript_0x58737:
-	checkevent EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LITWICK_CHAMBER
 	iftrue UnknownScript_0x58741
 	changeblock $4, $0, $2e
 UnknownScript_0x58741:
-	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	checkevent EVENT_SOLVED_LITWICK_PUZZLE
 	iffalse UnknownScript_0x58748
 	return
 
@@ -71,9 +71,9 @@ MapRuinsofAlphKabutoChamberSignpost2Script:
 
 UnknownScript_0x58778:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
-	setevent EVENT_SOLVED_KABUTO_PUZZLE
+	setevent EVENT_SOLVED_LITWICK_PUZZLE
 	setflag ENGINE_UNLOCKED_UNOWNS_1
-	setevent EVENT_RUINS_OF_ALPH_KABUTO_CHAMBER_RECEPTIONIST
+	setevent EVENT_RUINS_OF_ALPH_LITWICK_CHAMBER_RECEPTIONIST
 	domaptrigger RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 15
@@ -94,9 +94,9 @@ ScientistScript_0x587a8:
 	opentext
 	checkcode VAR_UNOWNCOUNT
 	if_equal 26, UnknownScript_0x587cf
-	checkevent EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LITWICK_CHAMBER
 	iftrue UnknownScript_0x587c9
-	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	checkevent EVENT_SOLVED_LITWICK_PUZZLE
 	iffalse UnknownScript_0x587c0
 	writetext UnknownText_0x589b8
 	buttonsound
@@ -104,7 +104,7 @@ UnknownScript_0x587c0:
 	writetext UnknownText_0x588f5
 	waitbutton
 	closetext
-	spriteface RUINSOFALPHKABUTOCHAMBER_SCIENTIST, UP
+	spriteface RUINSOFALPHLITWICKCHAMBER_SCIENTIST, UP
 	end
 
 UnknownScript_0x587c9:
@@ -134,7 +134,7 @@ MapRuinsofAlphKabutoChamberSignpost4Script:
 	end
 
 MapRuinsofAlphKabutoChamberSignpost5Script:
-	checkevent EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LITWICK_CHAMBER
 	iftrue UnknownScript_0x587f7
 	opentext
 	writetext UnknownText_0x58ad9
@@ -272,7 +272,7 @@ RuinsofAlphKabutoChamber_MapEventHeader:
 	warp_def $9, $4, 2, RUINS_OF_ALPH_OUTSIDE
 	warp_def $3, $3, 4, RUINS_OF_ALPH_INNER_CHAMBER
 	warp_def $3, $4, 5, RUINS_OF_ALPH_INNER_CHAMBER
-	warp_def $0, $4, 1, RUINS_OF_ALPH_KABUTO_ITEM_ROOM
+	warp_def $0, $4, 1, RUINS_OF_ALPH_LITWICK_ITEM_ROOM
 
 .XYTriggers:
 	db 0
@@ -288,5 +288,5 @@ RuinsofAlphKabutoChamber_MapEventHeader:
 
 .PersonEvents:
 	db 2
-	person_event SPRITE_RECEPTIONIST, 5, 5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ReceptionistScript_0x58769, EVENT_RUINS_OF_ALPH_KABUTO_CHAMBER_RECEPTIONIST
+	person_event SPRITE_RECEPTIONIST, 5, 5, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ReceptionistScript_0x58769, EVENT_RUINS_OF_ALPH_LITWICK_CHAMBER_RECEPTIONIST
 	person_event SPRITE_SCIENTIST, 1, 3, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, ScientistScript_0x587a8, -1

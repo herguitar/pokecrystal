@@ -1,4 +1,4 @@
-	dw PERSIAN ; 053
+	dw MEDICHAM ; 053
 
 	db  60,  60,  75,  80,  60,  75
 	;   hp  atk  def  spd  sat  sdf

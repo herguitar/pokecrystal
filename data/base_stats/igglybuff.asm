@@ -1,4 +1,4 @@
-	dw IGGLYBUFF ; 174
+	dw VIBRAVA ; 174
 
 	db  50,  70,  50,  70,  50,  50
 	;   hp  atk  def  spd  sat  sdf

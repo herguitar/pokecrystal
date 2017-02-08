@@ -1,4 +1,4 @@
-	dw EXEGGCUTE ; 102
+	dw CRAWDAUNT ; 102
 
 	db  63, 120,  85,  55,  90,  55
 	;   hp  atk  def  spd  sat  sdf

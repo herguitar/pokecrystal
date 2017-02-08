@@ -824,14 +824,14 @@ FleeMons:
 
 SometimesFleeMons: ; 3c59a
 	db MAGNEMITE
-	db GRIMER
+	db LUXRAY
 	db TANGELA
-	db MR__MIME
+	db BRONZOR
 	db EEVEE
 	db PORYGON
 	db DRATINI
 	db DRAGONAIR
-	db TOGETIC
+	db TRUBBISH
 	db UMBREON
 	db UNOWN
 	db SNUBBULL
@@ -839,14 +839,14 @@ SometimesFleeMons: ; 3c59a
 	db -1
 
 OftenFleeMons: ; 3c5a8
-	db CUBONE
-	db ARTICUNO
-	db ZAPDOS
-	db MOLTRES
+	db SANDILE
+	db TIRTOUGA
+	db CARRACOSTA
+	db RELICANTH
 	db QUAGSIRE
-	db DELIBIRD
+	db LOMBRE
 	db PHANPY
-	db TEDDIURSA
+	db BEHEYEEM
 	db -1
 
 AlwaysFleeMons: ; 3c5b1
@@ -3857,7 +3857,7 @@ TryToRunAwayFromBattle: ; 3d8b3
 	jp z, .can_escape
 	cp BATTLETYPE_TRAP
 	jp z, .cant_escape
-	cp BATTLETYPE_CELEBI
+	cp BATTLETYPE_COFAGRIGUS
 	jp z, .cant_escape
 	cp BATTLETYPE_SHINY
 	jp z, .cant_escape
@@ -6767,26 +6767,26 @@ CheckSleepingTreeMon: ; 3eb38
 	db WEEDLE
 	db KAKUNA
 	db BEEDRILL
-	db SPEAROW
-	db EKANS
-	db EXEGGCUTE
-	db LEDYBA
-	db AIPOM
+	db GRUBBIN
+	db VIKAVOLT
+	db CRAWDAUNT
+	db DARM_ZEN
+	db BUDEW
 	db -1 ; end
 
 .Day:
-	db VENONAT
-	db HOOTHOOT
-	db NOCTOWL
-	db SPINARAK
+	db SWIRLIX
+	db DARUMAKA
+	db DARMANITAN
+	db SALANDIT
 	db HERACROSS
 	db -1 ; end
 
 .Morn:
-	db VENONAT
-	db HOOTHOOT
-	db NOCTOWL
-	db SPINARAK
+	db SWIRLIX
+	db DARUMAKA
+	db DARMANITAN
+	db SALANDIT
 	db HERACROSS
 	db -1 ; end
 ; 3eb75
@@ -9605,7 +9605,7 @@ BattleStartMessage: ; 3fc8b
 	cp BATTLETYPE_TREE
 	jr z, .PlaceBattleStartText
 	ld hl, WildCelebiAppearedText
-	cp BATTLETYPE_CELEBI
+	cp BATTLETYPE_COFAGRIGUS
 	jr z, .PlaceBattleStartText
 	ld hl, WildPokemonAppearedText
 

@@ -1,4 +1,4 @@
-	dw FEAROW ; 022
+	dw CHARJABUG ; 022
 
 	db  57,  82,  95,  36,  55,  75
 	;   hp  atk  def  spd  sat  sdf

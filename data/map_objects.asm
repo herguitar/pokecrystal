@@ -25,7 +25,7 @@ endm
 	sprite_movement_data SPRITEMOVEFN_0E,                    DOWN,   PERSON_ACTION_STAND,    $00,    $00,    %0000 ; 12
 	sprite_movement_data SPRITEMOVEFN_FOLLOW,                DOWN,   PERSON_ACTION_STAND,    $02,    $00,    %0000 ; 13
 	sprite_movement_data SPRITEMOVEFN_SCRIPTED,              DOWN,   PERSON_ACTION_STAND,    $02,    $00,    %0000 ; 14
-	sprite_movement_data SPRITEMOVEFN_BIG_SNORLAX,           DOWN,   PERSON_ACTION_09,       $2e,    $01,    %1100 ; 15
+	sprite_movement_data SPRITEMOVEFN_BIG_CHANDELURE,           DOWN,   PERSON_ACTION_09,       $2e,    $01,    %1100 ; 15
 	sprite_movement_data SPRITEMOVEFN_BOUNCE,                DOWN,   PERSON_ACTION_0A,       $2e,    $00,    %0000 ; 16
 	sprite_movement_data SPRITEMOVEFN_STANDING,              DOWN,   PERSON_ACTION_STAND,    $0c,    $00,    %0000 ; 17
 	sprite_movement_data SPRITEMOVEFN_STANDING,              DOWN,   PERSON_ACTION_STAND,    $2e,    $10,    %0000 ; 18

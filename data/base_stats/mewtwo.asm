@@ -1,4 +1,4 @@
-	dw MEWTWO ; 150
+	dw RHYPERIOR ; 150
 
 	db 115, 140, 130,  40,  55,  55
 	;   hp  atk  def  spd  sat  sdf

@@ -196,14 +196,14 @@ BillPhoneScript2: ; 0xbd007
 ElmPhoneScript1: ; 0xbd00d
 	checkcode VAR_SPECIALPHONECALL
 	if_equal $1, .pokerus
-	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+	checkevent EVENT_SHOWED_FLYGON_TO_ELM
 	iftrue .discovery
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_FLYGON_EGG_FROM_ELMS_AIDE
 	iffalse .next
-	checkevent EVENT_TOGEPI_HATCHED
+	checkevent EVENT_FLYGON_HATCHED
 	iftrue .egghatched
 .next
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_FLYGON_EGG_FROM_ELMS_AIDE
 	iftrue .eggunhatched
 	checkevent EVENT_ELMS_AIDE_IN_LAB
 	iftrue .assistant
@@ -238,7 +238,7 @@ ElmPhoneScript1: ; 0xbd00d
 
 .egghatched ; 0xbd061
 	farwritetext ElmPhoneEggHatchedText
-	setevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
+	setevent EVENT_TOLD_ELM_ABOUT_FLYGON_OVER_THE_PHONE
 	end
 
 .discovery ; 0xbd069
@@ -827,9 +827,9 @@ Ralph_SetUpSwarm:
 	checkflag ENGINE_SPECIAL_WILDDATA
 	iftrue UnknownScript_0xbd55c
 	setflag ENGINE_SPECIAL_WILDDATA
-	pokenamemem QWILFISH, $1
+	pokenamemem BRUXISH, $1
 	landmarktotext ROUTE_32, $2
-	writebyte FISHSWARM_QWILFISH
+	writebyte FISHSWARM_BRUXISH
 	special Special_ActivateFishingSwarm
 	farjump UnknownScript_0xa05d6
 
@@ -1179,7 +1179,7 @@ ArniePhoneScript1:
 	iftrue UnknownScript_0xbd87a
 
 UnknownScript_0xbd832:
-	checkflag ENGINE_YANMA_SWARM
+	checkflag ENGINE_MUDKIP_SWARM
 	iftrue UnknownScript_0xbd843
 	farjump UnknownScript_0xa0968
 
@@ -1217,11 +1217,11 @@ UnknownScript_0xbd87d:
 	farjump UnknownScript_0xa0376
 
 UnknownScript_0xbd887: ; start swarm
-	checkflag ENGINE_YANMA_SWARM
+	checkflag ENGINE_MUDKIP_SWARM
 	iftrue UnknownScript_0xbd8a2
-	setflag ENGINE_YANMA_SWARM
-	pokenamemem YANMA, $1
-	swarm SWARM_YANMA, ROUTE_35
+	setflag ENGINE_MUDKIP_SWARM
+	pokenamemem MUDKIP, $1
+	swarm SWARM_MUDKIP, ROUTE_35
 	landmarktotext ROUTE_35, $2
 	farjump UnknownScript_0xa05ce
 

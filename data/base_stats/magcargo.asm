@@ -1,6 +1,6 @@
-	dw MAGCARGO ; 219
+	dw LOTAD ; 219
 
-	db  40,  30,  3O,  30,  40,  50
+	db  40,  30,  30,  30,  40,  50
 	;   hp  atk  def  spd  sat  sdf
 	db %00110000 ; EV Yield
 

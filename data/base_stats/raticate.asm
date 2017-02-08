@@ -1,4 +1,4 @@
-	dw RATICATE ; 020
+	dw ARAQUANID ; 020
 
 	db  68,  70,  92,  42,  50, 132
 	;   hp  atk  def  spd  sat  sdf

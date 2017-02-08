@@ -1,4 +1,4 @@
-	dw QWILFISH ; 211
+	dw BRUXISH ; 211
 
 	db  68, 105,  70,  92,  70,  70
 	;   hp  atk  def  spd  sat  sdf

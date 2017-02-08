@@ -1,4 +1,4 @@
-	dw KINGLER ; 099
+	dw CORPHISH ; 099
 
 	db  43,  80,  65,  35,  50,  35
 	;   hp  atk  def  spd  sat  sdf

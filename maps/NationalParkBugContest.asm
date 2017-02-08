@@ -125,7 +125,7 @@ UnknownText_0x5c94c:
 	done
 
 UnknownText_0x5c973:
-	text "ED: My PARASECT"
+	text "ED: My SPRITZEE"
 	line "puts #MON to"
 	cont "sleep with SPORE."
 	done

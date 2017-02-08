@@ -386,19 +386,19 @@ UnknownText_0xa183d: ; 0xa183d
 	line "the first #MON"
 
 	para "MARY caught was a"
-	line "DROWZEE?"
+	line "POOCHYENA?"
 
 	para "Isn't that so out"
 	line "of character?"
 
-	para "But MARY's DROWZEE"
+	para "But MARY's POOCHYENA"
 	line "kept making her"
 
 	para "fall asleep on the"
 	line "job, so she traded"
 
 	para "with a fan for a"
-	line "MEOWTH."
+	line "MEDITITE."
 
 	para "Let's chat about"
 	line "#MON again!"

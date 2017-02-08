@@ -1,4 +1,4 @@
-	dw PARAS ; 046
+	dw SPRITZEE ; 046
 
 	db  78,  52,  60,  23,  63,  65
 	;   hp  atk  def  spd  sat  sdf

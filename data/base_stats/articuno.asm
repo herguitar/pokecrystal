@@ -1,4 +1,4 @@
-	dw ARTICUNO ; 144
+	dw TIRTOUGA ; 144
 
 	db  54,  78, 103,  22,  53,  45
 	;   hp  atk  def  spd  sat  sdf

@@ -20,7 +20,7 @@ LassScript_0x9ae3d:
 Speary:
 	opentext
 	writetext SpearyText
-	cry SPEAROW
+	cry GRUBBIN
 	waitbutton
 	closetext
 	end
@@ -28,7 +28,7 @@ Speary:
 Rattey:
 	opentext
 	writetext RatteyText
-	cry RATTATA
+	cry DEWPIDER
 	waitbutton
 	closetext
 	end
@@ -49,8 +49,8 @@ UnknownText_0x9ae54:
 
 UnknownText_0x9aecb:
 	text "They're SPEARY--"
-	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	line "a GRUBBIN--and"
+	cont "RATTEY--a DEWPIDER."
 	done
 
 SpearyText:
@@ -80,5 +80,5 @@ ViridianNicknameSpeechHouse_MapEventHeader:
 	db 4
 	person_event SPRITE_POKEFAN_M, 4, 2, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, (1 << 3) | PAL_OW_RED, PERSONTYPE_SCRIPT, 0, PokefanMScript_0x9ae3a, -1
 	person_event SPRITE_LASS, 4, 5, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, LassScript_0x9ae3d, -1
-	person_event SPRITE_MOLTRES, 2, 5, SPRITEMOVEDATA_POKEMON, 0, 2, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, Speary, -1
+	person_event SPRITE_RELICANTH, 2, 5, SPRITEMOVEDATA_POKEMON, 0, 2, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, Speary, -1
 	person_event SPRITE_GROWLITHE, 3, 6, SPRITEMOVEDATA_POKEMON, 0, 2, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, Rattey, -1

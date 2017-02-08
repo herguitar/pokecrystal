@@ -1,4 +1,4 @@
-	dw LICKITUNG ; 108
+	dw MANDIBUZZ ; 108
 
 	db 110,  65, 105,  80,  55,  95
 	;   hp  atk  def  spd  sat  sdf

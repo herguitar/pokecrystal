@@ -1,4 +1,4 @@
-	dw ARBOK ; 024
+	dw WEAVILE ; 024
 
 	db  70, 120,  65, 125,  45,  85
 	;   hp  atk  def  spd  sat  sdf

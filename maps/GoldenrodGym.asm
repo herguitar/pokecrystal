@@ -352,12 +352,12 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
+	text "No! Oh, MEDITITE,"
 	line "I'm so sorry!"
 	done
 
 BeautySamanthaOWText:
-	text "I taught MEOWTH"
+	text "I taught MEDITITE"
 	line "moves for taking"
 	cont "on any type…"
 	done

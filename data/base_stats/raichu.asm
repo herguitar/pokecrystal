@@ -1,4 +1,4 @@
-	dw RAICHU ; 026
+	dw ABOMASNOW ; 026
 
 	db  90,  92,  75,  60,  92,  85
 	;   hp  atk  def  spd  sat  sdf

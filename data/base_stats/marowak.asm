@@ -1,4 +1,4 @@
-	dw MAROWAK ; 105
+	dw KROKOROK ; 105
 
 	db  60,  82,  45,  74,  45,  45
 	;   hp  atk  def  spd  sat  sdf

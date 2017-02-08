@@ -45,7 +45,7 @@ UnknownText_0x5ad2a:
 	line "KING'S ROCK often"
 
 	para "gets bitten by a"
-	line "SHELLDER."
+	line "ELEKTRIK."
 
 	para "Here, I'll share a"
 	line "KING'S ROCK with"

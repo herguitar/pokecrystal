@@ -1,4 +1,4 @@
-	dw LANTURN ; 171
+	dw SHELGON ; 171
 
 	db  65,  95, 100,  50,  60,  50
 	;   hp  atk  def  spd  sat  sdf

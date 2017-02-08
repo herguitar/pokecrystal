@@ -1,4 +1,4 @@
-	dw TOGEPI ; 175
+	dw FLYGON ; 175
 
 	db  80, 100,  80, 100,  80,  80
 	;   hp  atk  def  spd  sat  sdf

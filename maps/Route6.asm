@@ -73,18 +73,18 @@ UnknownText_0x1ad9ff:
 	done
 
 PokefanmAllanSeenText:
-	text "My TEDDIURSA is"
+	text "My BEHEYEEM is"
 	line "the cutest in the"
 	cont "world."
 	done
 
 PokefanmAllanBeatenText:
-	text "My TEDDIURSA!"
+	text "My BEHEYEEM!"
 	done
 
 UnknownText_0x1ada88:
 	text "Look how adorable"
-	line "my TEDDIURSA acts!"
+	line "my BEHEYEEM acts!"
 
 	para "Isn't it cute"
 	line "enough to make"

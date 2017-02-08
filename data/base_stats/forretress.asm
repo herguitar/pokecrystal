@@ -1,4 +1,4 @@
-	dw FORRETRESS ; 205
+	dw HIPPOWDON ; 205
 
 	db 108, 112, 118,  47,  68,  72
 	;   hp  atk  def  spd  sat  sdf

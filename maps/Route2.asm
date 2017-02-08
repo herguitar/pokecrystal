@@ -143,7 +143,7 @@ Route2SignText:
 	done
 
 UnknownText_0x1ac49f:
-	text "DIGLETT'S CAVE"
+	text "SYLVEON'S CAVE"
 	done
 
 Route2_MapEventHeader:
@@ -156,7 +156,7 @@ Route2_MapEventHeader:
 	warp_def $1f, $f, 3, ROUTE_2_GATE
 	warp_def $1b, $10, 1, ROUTE_2_GATE
 	warp_def $1b, $11, 2, ROUTE_2_GATE
-	warp_def $7, $c, 3, DIGLETTS_CAVE
+	warp_def $7, $c, 3, SYLVEONS_CAVE
 
 .XYTriggers:
 	db 0

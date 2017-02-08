@@ -1,4 +1,4 @@
-	dw MR__MIME ; 122
+	dw BRONZOR ; 122
 
 	db  57,  24,  86,  23,  24,  86
 	;   hp  atk  def  spd  sat  sdf

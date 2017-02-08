@@ -1,4 +1,4 @@
-	dw PRIMEAPE ; 057
+	dw MIENFOO ; 057
 
 	db  45,  85,  50,  65,  55,  50
 	;   hp  atk  def  spd  sat  sdf

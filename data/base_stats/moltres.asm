@@ -1,4 +1,4 @@
-	dw MOLTRES ; 146
+	dw RELICANTH ; 146
 
 	db 100,  90, 134,  55,  45,  65
 	;   hp  atk  def  spd  sat  sdf

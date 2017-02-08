@@ -1,15 +1,15 @@
 
 ; pokemon
 const_value set 1
-	const BULBASAUR
-	const IVYSAUR
-	const VENUSAUR
-	const CHARMANDER
-	const CHARMELEON
-	const CHARIZARD
-	const SQUIRTLE
-	const WARTORTLE
-	const BLASTOISE
+	const SURSKIT
+	const MASQUERAIN
+	const LARVESTA
+	const VOLCARONA
+	const SKORUPI
+	const DRAPION
+	const COMBEE
+	const VESPIQUEEN
+	const DURANT
 	const CATERPIE
 	const METAPOD
 	const BUTTERFREE
@@ -19,16 +19,16 @@ const_value set 1
 	const PIDGEY
 	const PIDGEOTTO
 	const PIDGEOT
-	const RATTATA
-	const RATICATE
-	const SPEAROW
-	const FEAROW
-	const EKANS
-	const ARBOK
+	const DEWPIDER
+	const ARAQUANID
+	const GRUBBIN
+	const CHARJABUG
+	const VIKAVOLT
+	const WEAVILE
 	const PIKACHU
-	const RAICHU
-	const SANDSHREW
-	const SANDSLASH
+	const ABOMASNOW
+	const SNORUNT
+	const GLALIE
 	const NIDORAN_F
 	const NIDORINA
 	const NIDOQUEEN
@@ -39,25 +39,25 @@ const_value set 1
 	const CLEFABLE
 	const VULPIX
 	const NINETALES
-	const JIGGLYPUFF
-	const WIGGLYTUFF
+	const FROSLASS
+	const GLACEON
 	const ZUBAT
 	const GOLBAT
-	const ODDISH
-	const GLOOM
-	const VILEPLUME
-	const PARAS
-	const PARASECT
-	const VENONAT
-	const VENOMOTH
-	const DIGLETT
-	const DUGTRIO
-	const MEOWTH
-	const PERSIAN
-	const PSYDUCK
-	const GOLDUCK
-	const MANKEY
-	const PRIMEAPE
+	const MAMOSWINE
+	const MAWILE
+	const KLEFKI
+	const SPRITZEE
+	const AROMATISSE
+	const SWIRLIX
+	const SLURPUFF
+	const SYLVEON
+	const MIMIKYU
+	const MEDITITE
+	const MEDICHAM
+	const HAWLUCHA
+	const CROAGUNK
+	const TOXICROAK
+	const MIENFOO
 	const GROWLITHE
 	const ARCANINE
 	const POLIWAG
@@ -83,37 +83,37 @@ const_value set 1
 	const SLOWBRO
 	const MAGNEMITE
 	const MAGNETON
-	const FARFETCH_D
-	const DODUO
-	const DODRIO
-	const SEEL
-	const DEWGONG
-	const GRIMER
-	const MUK
-	const SHELLDER
-	const CLOYSTER
+	const MIENSHAO
+	const STUFFUL
+	const BEWEAR
+	const SHINX
+	const LUXIO
+	const LUXRAY
+	const TYNAMO
+	const ELEKTRIK
+	const ELEKTROSS
 	const GASTLY
 	const HAUNTER
 	const GENGAR
 	const ONIX
-	const DROWZEE
-	const HYPNO
-	const KRABBY
-	const KINGLER
+	const POOCHYENA
+	const MIGHTYENA
+	const SABLEYE
+	const CORPHISH
 	const VOLTORB
 	const ELECTRODE
-	const EXEGGCUTE
-	const EXEGGUTOR
-	const CUBONE
-	const MAROWAK
-	const HITMONLEE
-	const HITMONCHAN
-	const LICKITUNG
-	const KOFFING
-	const WEEZING
+	const CRAWDAUNT
+	const HONCHKROW
+	const SANDILE
+	const KROKOROK
+	const KROOKODILE
+	const VULLABY
+	const MANDIBUZZ
+	const BELDUM
+	const METANG
 	const RHYHORN
 	const RHYDON
-	const CHANSEY
+	const METAGROSS
 	const TANGELA
 	const KANGASKHAN
 	const HORSEA
@@ -122,13 +122,13 @@ const_value set 1
 	const SEAKING
 	const STARYU
 	const STARMIE
-	const MR__MIME
+	const BRONZOR
 	const SCYTHER
-	const JYNX
-	const ELECTABUZZ
-	const MAGMAR
+	const BRONZONG
+	const MISMAGIUS
+	const DHELMISE
 	const PINSIR
-	const TAUROS
+	const RUFFLET
 	const MAGIKARP
 	const GYARADOS
 	const LAPRAS
@@ -138,19 +138,19 @@ const_value set 1
 	const JOLTEON
 	const FLAREON
 	const PORYGON
-	const OMANYTE
-	const OMASTAR
-	const KABUTO
-	const KABUTOPS
+	const BRAVIARY
+	const YAMASK
+	const LITWICK
+	const LAMPENT
 	const AERODACTYL
-	const SNORLAX
-	const ARTICUNO
-	const ZAPDOS
-	const MOLTRES
+	const CHANDELURE
+	const TIRTOUGA
+	const CARRACOSTA
+	const RELICANTH
 	const DRATINI
 	const DRAGONAIR
 	const DRAGONITE
-	const MEWTWO
+	const RHYPERIOR
 	const MEW
 	const CHIKORITA
 	const BAYLEEF
@@ -161,39 +161,39 @@ const_value set 1
 	const TOTODILE
 	const CROCONAW
 	const FERALIGATR
-	const SENTRET
-	const FURRET
-	const HOOTHOOT
-	const NOCTOWL
-	const LEDYBA
-	const LEDIAN
-	const SPINARAK
-	const ARIADOS
+	const LYCANROC_D
+	const LYCANROC_N
+	const DARUMAKA
+	const DARMANITAN
+	const DARM_ZEN
+	const TURTONATOR
+	const SALANDIT
+	const SALAZZLE
 	const CROBAT
-	const CHINCHOU
-	const LANTURN
-	const PICHU
-	const CLEFFA
-	const IGGLYBUFF
-	const TOGEPI
-	const TOGETIC
+	const BAGON
+	const SHELGON
+	const SALAMENCE
+	const TRAPINCH
+	const VIBRAVA
+	const FLYGON
+	const TRUBBISH
 	const NATU
 	const XATU
 	const MAREEP
 	const FLAAFFY
 	const AMPHAROS
-	const BELLOSSOM
+	const GARBADOR
 	const MARILL
-	const AZUMARILL
+	const TOXAPEX
 	const SUDOWOODO
 	const POLITOED
 	const HOPPIP
 	const SKIPLOOM
 	const JUMPLUFF
-	const AIPOM
-	const SUNKERN
-	const SUNFLORA
-	const YANMA
+	const BUDEW
+	const ROSELIA
+	const ROSERADE
+	const MUDKIP
 	const WOOPER
 	const QUAGSIRE
 	const ESPEON
@@ -202,31 +202,31 @@ const_value set 1
 	const SLOWKING
 	const MISDREAVUS
 	const UNOWN
-	const WOBBUFFET
-	const GIRAFARIG
-	const PINECO
-	const FORRETRESS
+	const MARSHTOMP
+	const SWAMPERT
+	const HIPPOPOTAS
+	const HIPPOWDON
 	const DUNSPARCE
-	const GLIGAR
+	const CHINGLING
 	const STEELIX
 	const SNUBBULL
 	const GRANBULL
-	const QWILFISH
+	const BRUXISH
 	const SCIZOR
-	const SHUCKLE
+	const ELGYEM
 	const HERACROSS
 	const SNEASEL
-	const TEDDIURSA
-	const URSARING
-	const SLUGMA
-	const MAGCARGO
+	const BEHEYEEM
+	const SIGILYPH
+	const TANGROWTH
+	const LOTAD
 	const SWINUB
 	const PILOSWINE
 	const CORSOLA
 	const REMORAID
 	const OCTILLERY
-	const DELIBIRD
-	const MANTINE
+	const LOMBRE
+	const LUDICOLO
 	const SKARMORY
 	const HOUNDOUR
 	const HOUNDOOM
@@ -235,23 +235,23 @@ const_value set 1
 	const DONPHAN
 	const PORYGON2
 	const STANTLER
-	const SMEARGLE
-	const TYROGUE
-	const HITMONTOP
-	const SMOOCHUM
-	const ELEKID
-	const MAGBY
+	const TROPIUS
+	const SKIDDO
+	const GOGOAT
+	const FEEBAS
+	const MILOTIC
+	const CLAUNCHER
 	const MILTANK
-	const BLISSEY
+	const CLAWITZER
 	const RAIKOU
 	const ENTEI
 	const SUICUNE
-	const LARVITAR
-	const PUPITAR
-	const TYRANITAR
+	const PORYGONZ
+	const ELKENTHAL
+	const NUMENTHUR
 	const LUGIA
 	const HO_OH
-	const CELEBI
+	const COFAGRIGUS
 	const CHIMECHO
 
 const_value SET const_value + -1

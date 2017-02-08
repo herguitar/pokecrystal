@@ -1,4 +1,4 @@
-	dw CELEBI ; 251
+	dw COFAGRIGUS ; 251
 
 	db  58,  50, 145,  30,  95, 105
 	;   hp  atk  def  spd  sat  sdf

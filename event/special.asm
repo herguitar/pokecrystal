@@ -5,7 +5,7 @@ SpecialGiveShuckle: ; 7305
 	ld [MonType], a
 
 ; Level 15 Shuckle.
-	ld a, SHUCKLE
+	ld a, ELGYEM
 	ld [CurPartySpecies], a
 	ld a, 15
 	ld [CurPartyLevel], a
@@ -55,7 +55,7 @@ SpecialGiveShuckle: ; 7305
 ; Engine flag for this event.
 	ld hl, DailyFlags
 	set 5, [hl]
-; setflag ENGINE_SHUCKLE_GIVEN
+; setflag ENGINE_ELGYEM_GIVEN
 	ld a, 1
 	ld [ScriptVar], a
 	ret
@@ -75,7 +75,7 @@ SpecialReturnShuckle: ; 737e
 	jr c, .refused
 
 	ld a, [CurPartySpecies]
-	cp SHUCKLE
+	cp ELGYEM
 	jr nz, .DontReturn
 
 	ld a, [CurPartyMon]

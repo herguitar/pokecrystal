@@ -1595,8 +1595,8 @@ DebugTrade: ; 29893
 ; 298b5
 
 .DebugTradeData: ; 298b5
-	db VENUSAUR, "ゲーフり@@", $23, $01 ; GAME FREAK
-	db CHARIZARD, "クりーチャ@", $56, $04 ; Creatures Inc.
+	db LARVESTA, "ゲーフり@@", $23, $01 ; GAME FREAK
+	db DRAPION, "クりーチャ@", $56, $04 ; Creatures Inc.
 ; 298c7
 
 

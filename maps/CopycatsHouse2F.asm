@@ -1,6 +1,6 @@
 const_value set 2
 	const COPYCATSHOUSE2F_COPYCAT1 ; if player is male
-	const COPYCATSHOUSE2F_DODRIO
+	const COPYCATSHOUSE2F_BEWEAR
 	const COPYCATSHOUSE2F_FAIRYDOLL ; lost item
 	const COPYCATSHOUSE2F_MONSTERDOLL
 	const COPYCATSHOUSE2F_BIRDDOLL
@@ -178,7 +178,7 @@ Copycat:
 CopycatsDodrio:
 	opentext
 	writetext CopycatsDodrioText1
-	cry DODRIO
+	cry BEWEAR
 	buttonsound
 	writetext CopycatsDodrioText2
 	waitbutton
@@ -345,7 +345,7 @@ CopycatText_Female_3:
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "BEWEAR: Gii giii!"
 	done
 
 CopycatsDodrioText2:
@@ -382,7 +382,7 @@ CopycatsHouse2F_MapEventHeader:
 .PersonEvents:
 	db 6
 	person_event SPRITE_COPYCAT, 3, 4, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, (1 << 3) | PAL_OW_RED, PERSONTYPE_SCRIPT, 0, Copycat, EVENT_COPYCAT_1
-	person_event SPRITE_MOLTRES, 4, 6, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, CopycatsDodrio, -1
+	person_event SPRITE_RELICANTH, 4, 6, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, CopycatsDodrio, -1
 	person_event SPRITE_FAIRY, 1, 6, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, (1 << 3) | PAL_OW_RED, PERSONTYPE_SCRIPT, 0, CopycatsHouse2FDoll, EVENT_COPYCATS_HOUSE_2F_DOLL
 	person_event SPRITE_MONSTER, 1, 2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, CopycatsHouse2FDoll, -1
 	person_event SPRITE_BIRD, 1, 7, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, CopycatsHouse2FDoll, -1

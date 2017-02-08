@@ -1,4 +1,4 @@
-	dw TYROGUE ; 236
+	dw SKIDDO ; 236
 
 	db  66,  65,  48,  52,  62,  57
 	;   hp  atk  def  spd  sat  sdf

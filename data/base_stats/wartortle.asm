@@ -1,4 +1,4 @@
-	dw WARTORTLE ; 008
+	dw VESPIQUEEN ; 008
 
 	db  70,  80, 102,  40,  80, 102
 	;   hp  atk  def  spd  sat  sdf

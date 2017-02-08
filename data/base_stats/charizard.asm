@@ -1,4 +1,4 @@
-	dw CHARIZARD ; 006
+	dw DRAPION ; 006
 
 	db  70,  90, 110,  95,  60,  75
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw JIGGLYPUFF ; 039
+	dw FROSLASS ; 039
 
 	db  70,  80,  70, 110,  80,  70
 	;   hp  atk  def  spd  sat  sdf

@@ -15,7 +15,7 @@ RuinsofAlphOmanyteChamber_MapScriptHeader:
 
 UnknownScript_0x58be9:
 	special SpecialOmanyteChamber
-	checkevent EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_BRAVIARY_CHAMBER
 	iftrue UnknownScript_0x58bf3
 	end
 
@@ -27,11 +27,11 @@ UnknownScript_0x58bf7:
 	end
 
 UnknownScript_0x58bf8:
-	checkevent EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_BRAVIARY_CHAMBER
 	iftrue UnknownScript_0x58c02
 	changeblock $4, $0, $2e
 UnknownScript_0x58c02:
-	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	checkevent EVENT_SOLVED_BRAVIARY_PUZZLE
 	iffalse UnknownScript_0x58c09
 	return
 
@@ -63,7 +63,7 @@ MapRuinsofAlphOmanyteChamberSignpost2Script:
 
 UnknownScript_0x58c36:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
-	setevent EVENT_SOLVED_OMANYTE_PUZZLE
+	setevent EVENT_SOLVED_BRAVIARY_PUZZLE
 	setflag ENGINE_UNLOCKED_UNOWNS_2
 	domaptrigger RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
@@ -95,7 +95,7 @@ MapRuinsofAlphOmanyteChamberSignpost4Script:
 	end
 
 MapRuinsofAlphOmanyteChamberSignpost5Script:
-	checkevent EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_BRAVIARY_CHAMBER
 	iftrue UnknownScript_0x58c85
 	opentext
 	writetext UnknownText_0x58cc0
@@ -159,7 +159,7 @@ RuinsofAlphOmanyteChamber_MapEventHeader:
 	warp_def $9, $4, 3, RUINS_OF_ALPH_OUTSIDE
 	warp_def $3, $3, 6, RUINS_OF_ALPH_INNER_CHAMBER
 	warp_def $3, $4, 7, RUINS_OF_ALPH_INNER_CHAMBER
-	warp_def $0, $4, 1, RUINS_OF_ALPH_OMANYTE_ITEM_ROOM
+	warp_def $0, $4, 1, RUINS_OF_ALPH_BRAVIARY_ITEM_ROOM
 
 .XYTriggers:
 	db 0

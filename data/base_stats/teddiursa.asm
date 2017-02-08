@@ -1,4 +1,4 @@
-	dw TEDDIURSA ; 216
+	dw BEHEYEEM ; 216
 
 	db  75,  75,  75,  40, 125,  95
 	;   hp  atk  def  spd  sat  sdf

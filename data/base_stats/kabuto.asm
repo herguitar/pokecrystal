@@ -1,4 +1,4 @@
-	dw KABUTO ; 140
+	dw LITWICK ; 140
 
 	db  50,  30,  55,  20,  65,  55
 	;   hp  atk  def  spd  sat  sdf

@@ -103,7 +103,7 @@ GetFishGroupIndex: ; 9245b
 	jr z, .done
 
 	ld a, d
-	cp FISHGROUP_QWILFISH
+	cp FISHGROUP_BRUXISH
 	jr z, .qwilfish
 	cp FISHGROUP_REMORAID
 	jr z, .remoraid
@@ -116,9 +116,9 @@ GetFishGroupIndex: ; 9245b
 
 .qwilfish
 	ld a, [wFishingSwarmFlag]
-	cp FISHSWARM_QWILFISH
+	cp FISHSWARM_BRUXISH
 	jr nz, .done
-	ld d, FISHGROUP_QWILFISH_SWARM
+	ld d, FISHGROUP_BRUXISH_SWARM
 	jr .done
 
 .remoraid

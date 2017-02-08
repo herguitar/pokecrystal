@@ -1,4 +1,4 @@
-	dw SANDSLASH ; 028
+	dw GLALIE ; 028
 
 	db  80,  80,  80,  80,  80,  80
 	;   hp  atk  def  spd  sat  sdf

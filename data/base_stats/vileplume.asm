@@ -1,4 +1,4 @@
-	dw VILEPLUME ; 045
+	dw KLEFKI ; 045
 
 	db  57,  80,  91,  75,  80,  87
 	;   hp  atk  def  spd  sat  sdf

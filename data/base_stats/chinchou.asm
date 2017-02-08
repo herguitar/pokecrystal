@@ -1,4 +1,4 @@
-	dw CHINCHOU ; 170
+	dw BAGON ; 170
 
 	db  45,  75,  60,  50,  40,  30
 	;   hp  atk  def  spd  sat  sdf

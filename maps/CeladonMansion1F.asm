@@ -17,7 +17,7 @@ CeladonMansionManager:
 CeladonMansion1FMeowth:
 	opentext
 	writetext CeladonMansion1FMeowthText
-	cry MEOWTH
+	cry MEDITITE
 	waitbutton
 	closetext
 	end
@@ -51,12 +51,12 @@ CeladonMansionManagerText:
 	para "so I don't ever"
 	line "feel lonely."
 
-	para "MEOWTH even brings"
+	para "MEDITITE even brings"
 	line "money home."
 	done
 
 CeladonMansion1FMeowthText:
-	text "MEOWTH: Meow!"
+	text "MEDITITE: Meow!"
 	done
 
 CeladonMansion1FClefairyText:

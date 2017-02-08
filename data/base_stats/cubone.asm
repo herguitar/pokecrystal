@@ -1,4 +1,4 @@
-	dw CUBONE ; 104
+	dw SANDILE ; 104
 
 	db  50,  72,  35,  65,  35,  35
 	;   hp  atk  def  spd  sat  sdf

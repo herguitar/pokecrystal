@@ -104,13 +104,13 @@ UnknownText_0x1a9fde:
 	done
 
 UnknownText_0x1aa043:
-	text "GRIMER have been"
+	text "LUXRAY have been"
 	line "appearing lately."
 
 	para "See that pond out"
 	line "in front of the"
 
-	para "house? GRIMER live"
+	para "house? LUXRAY live"
 	line "there now."
 
 	para "Where did they"

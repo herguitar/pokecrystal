@@ -1,6 +1,6 @@
 const_value set 2
 	const ROUTE28FAMOUSSPEECHHOUSE_CELEBRITY
-	const ROUTE28FAMOUSSPEECHHOUSE_FEAROW
+	const ROUTE28FAMOUSSPEECHHOUSE_CHARJABUG
 
 Route28FamousSpeechHouse_MapScriptHeader:
 .MapTriggers:
@@ -37,7 +37,7 @@ Celebrity:
 CelebritysFearow:
 	opentext
 	writetext CelebritysFearowText
-	cry FEAROW
+	cry CHARJABUG
 	waitbutton
 	closetext
 	end
@@ -69,7 +69,7 @@ CelebrityText2:
 	done
 
 CelebritysFearowText:
-	text "FEAROW: Feero!"
+	text "CHARJABUG: Feero!"
 	done
 
 Route28FamousSpeechHouse_MapEventHeader:
@@ -92,4 +92,4 @@ Route28FamousSpeechHouse_MapEventHeader:
 .PersonEvents:
 	db 2
 	person_event SPRITE_COOLTRAINER_F, 3, 2, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, Celebrity, -1
-	person_event SPRITE_MOLTRES, 5, 6, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, CelebritysFearow, -1
+	person_event SPRITE_RELICANTH, 5, 6, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, CelebritysFearow, -1

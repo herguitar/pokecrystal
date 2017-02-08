@@ -1785,11 +1785,11 @@ DebugMobileTrade: ; 108c9b
 ; 108ce9
 
 .DebugTradeData:
-	db VENUSAUR
+	db LARVESTA
 	db "ゲーフり@@"
 	dw $0123
 	db "かびーん@@"
-	db CHARIZARD
+	db DRAPION
 	db "クりーチャ@"
 	dw $0456
 	db "マツミヤ@@"

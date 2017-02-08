@@ -1,4 +1,4 @@
-	dw WOBBUFFET ; 202
+	dw MARSHTOMP ; 202
 
 	db  70,  85,  70,  50,  60,  70
 	;   hp  atk  def  spd  sat  sdf

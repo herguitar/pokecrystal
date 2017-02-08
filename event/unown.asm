@@ -15,7 +15,7 @@ SpecialHoOhChamber: ; 0x8addb
 
 SpecialOmanyteChamber: ; 8adef
 	call GetSecondaryMapHeaderPointer
-	ld de, EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+	ld de, EVENT_WALL_OPENED_IN_BRAVIARY_CHAMBER
 	ld b, CHECK_FLAG
 	call EventFlagAction
 	ld a, c
@@ -47,7 +47,7 @@ SpecialOmanyteChamber: ; 8adef
 
 .open
 	call GetSecondaryMapHeaderPointer
-	ld de, EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+	ld de, EVENT_WALL_OPENED_IN_BRAVIARY_CHAMBER
 	ld b, SET_FLAG
 	call EventFlagAction
 
@@ -95,7 +95,7 @@ SpecialKabutoChamber: ; 8ae4e
 	cp RuinsofAlphKabutoChamber_SecondMapHeader % $100
 	jr nz, .done
 
-	ld de, EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
+	ld de, EVENT_WALL_OPENED_IN_LITWICK_CHAMBER
 	ld b, SET_FLAG
 	call EventFlagAction
 

@@ -1,7 +1,7 @@
 const_value set 2
 	const CERULEANPOLICESTATION_FISHING_GURU
 	const CERULEANPOLICESTATION_POKEFAN_F
-	const CERULEANPOLICESTATION_DIGLETT
+	const CERULEANPOLICESTATION_SYLVEON
 
 CeruleanPoliceStation_MapScriptHeader:
 .MapTriggers:
@@ -19,7 +19,7 @@ PokefanFScript_0x18804d:
 CeruleanDiglett:
 	opentext
 	writetext CeruleanDiglettText
-	cry DIGLETT
+	cry SYLVEON
 	waitbutton
 	closetext
 	end
@@ -40,7 +40,7 @@ UnknownText_0x1880c3:
 	done
 
 CeruleanDiglettText:
-	text "DIGLETT: Dug dug."
+	text "SYLVEON: Dug dug."
 	done
 
 CeruleanPoliceStation_MapEventHeader:
@@ -62,4 +62,4 @@ CeruleanPoliceStation_MapEventHeader:
 	db 3
 	person_event SPRITE_FISHING_GURU, 1, 5, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, FishingGuruScript_0x18804a, -1
 	person_event SPRITE_POKEFAN_F, 4, 5, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, PokefanFScript_0x18804d, -1
-	person_event SPRITE_DIGLETT, 5, 3, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, CeruleanDiglett, -1
+	person_event SPRITE_SYLVEON, 5, 3, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, CeruleanDiglett, -1

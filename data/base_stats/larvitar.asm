@@ -1,4 +1,4 @@
-	dw LARVITAR ; 246
+	dw PORYGONZ ; 246
 
 	db  85,  80,  70,  90, 135,  75
 	;   hp  atk  def  spd  sat  sdf

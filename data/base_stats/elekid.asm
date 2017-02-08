@@ -1,4 +1,4 @@
-	dw ELEKID ; 239
+	dw MILOTIC ; 239
 
 	db  95,  60,  79,  81, 100, 125
 	;   hp  atk  def  spd  sat  sdf

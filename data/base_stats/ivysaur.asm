@@ -1,4 +1,4 @@
-	dw IVYSAUR ; 002
+	dw MASQUERAIN ; 002
 
 	db  70,  60,  62,  80, 100,  82
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw KRABBY ; 098
+	dw SABLEYE ; 098
 
 	db  50,  75,  75,  50,  65,  65
 	;   hp  atk  def  spd  sat  sdf

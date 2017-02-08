@@ -1,4 +1,4 @@
-	dw SEEL ; 086
+	dw SHINX ; 086
 
 	db  45,  65,  34,  45,  40,  34
 	;   hp  atk  def  spd  sat  sdf

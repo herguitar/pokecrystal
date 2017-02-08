@@ -1,4 +1,4 @@
-	dw URSARING ; 217
+	dw SIGILYPH ; 217
 
 	db  72,  58,  80,  97, 103,  80
 	;   hp  atk  def  spd  sat  sdf

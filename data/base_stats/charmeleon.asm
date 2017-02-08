@@ -1,4 +1,4 @@
-	dw CHARMELEON ; 005
+	dw SKORUPI ; 005
 
 	db  40,  50,  90,  65,  30,  55
 	;   hp  atk  def  spd  sat  sdf

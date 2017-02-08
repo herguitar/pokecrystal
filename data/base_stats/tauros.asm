@@ -1,4 +1,4 @@
-	dw TAUROS ; 128
+	dw RUFFLET ; 128
 
 	db  70,  83,  50,  60,  37,  50
 	;   hp  atk  def  spd  sat  sdf

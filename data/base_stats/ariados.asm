@@ -1,4 +1,4 @@
-	dw ARIADOS ; 168
+	dw SALAZZLE ; 168
 
 	db  68,  64,  60, 117, 111,  60
 	;   hp  atk  def  spd  sat  sdf

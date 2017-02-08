@@ -1,4 +1,4 @@
-	dw MAGBY ; 240
+	dw CLAUNCHER ; 240
 
 	db  50,  53,  62,  44,  58,  63
 	;   hp  atk  def  spd  sat  sdf

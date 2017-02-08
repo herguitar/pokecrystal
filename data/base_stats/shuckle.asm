@@ -1,4 +1,4 @@
-	dw SHUCKLE ; 213
+	dw ELGYEM ; 213
 
 	db  55,  55,  55,  30,  85,  55
 	;   hp  atk  def  spd  sat  sdf

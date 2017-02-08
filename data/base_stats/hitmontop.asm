@@ -1,4 +1,4 @@
-	dw HITMONTOP ; 237
+	dw GOGOAT ; 237
 
 	db 123, 100,  62,  68,  97,  81
 	;   hp  atk  def  spd  sat  sdf

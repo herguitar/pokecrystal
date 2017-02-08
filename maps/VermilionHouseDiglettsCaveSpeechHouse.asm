@@ -1,5 +1,5 @@
 const_value set 2
-	const VERMILIONHOUSEDIGLETTSCAVESPEECHHOUSE_GENTLEMAN
+	const VERMILIONHOUSESYLVEONSCAVESPEECHHOUSE_GENTLEMAN
 
 VermilionHouseDiglettsCaveSpeechHouse_MapScriptHeader:
 .MapTriggers:
@@ -13,7 +13,7 @@ GentlemanScript_0x192031:
 
 UnknownText_0x192034:
 	text "Over many years,"
-	line "DIGLETT dug a"
+	line "SYLVEON dug a"
 	cont "large tunnel."
 
 	para "That tunnel goes"

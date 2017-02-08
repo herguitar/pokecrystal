@@ -1,4 +1,4 @@
-	dw CLOYSTER ; 091
+	dw ELEKTROSS ; 091
 
 	db  85, 115,  80,  50, 105,  80
 	;   hp  atk  def  spd  sat  sdf

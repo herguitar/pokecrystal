@@ -1,4 +1,4 @@
-	dw SPEAROW ; 021
+	dw GRUBBIN ; 021
 
 	db  47,  62,  45,  46,  55,  45
 	;   hp  atk  def  spd  sat  sdf

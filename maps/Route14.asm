@@ -65,8 +65,8 @@ PokefanmCarterBeatenText:
 	done
 
 UnknownText_0x1ad508:
-	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	text "COMBEE, CHARMAN-"
+	line "DER and SURSKIT…"
 
 	para "I think that's a"
 	line "well-balanced mix."
@@ -104,7 +104,7 @@ PokefanmTrevorSeenText:
 
 PokefanmTrevorBeatenText:
 	text "Where did I meet"
-	line "this PSYDUCK?"
+	line "this HAWLUCHA?"
 	done
 
 UnknownText_0x1ad660:

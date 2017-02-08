@@ -1,4 +1,4 @@
-	dw DROWZEE ; 096
+	dw POOCHYENA ; 096
 
 	db  35,  55,  35,  35,  30,  30
 	;   hp  atk  def  spd  sat  sdf

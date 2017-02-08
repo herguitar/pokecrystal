@@ -474,11 +474,11 @@ GeodudeExplodingTrap:
 
 KoffingExplodingTrap:
 	special FadeOutPalettes
-	cry KOFFING
+	cry BELDUM
 	special FadeInPalettes
 	setlasttalked -1
 	writecode VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon KOFFING, 21
+	loadwildmon BELDUM, 21
 	startbattle
 	end
 
@@ -715,7 +715,7 @@ UnknownText_0x6cd1b:
 	done
 
 SecurityCameraText:
-	text "It's a PERSIAN"
+	text "It's a MEDICHAM"
 	line "statue…"
 
 	para "Its eyes are oddly"

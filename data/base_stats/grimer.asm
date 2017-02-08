@@ -1,4 +1,4 @@
-	dw GRIMER ; 088
+	dw LUXRAY ; 088
 
 	db  80, 120,  79,  70,  95,  79
 	;   hp  atk  def  spd  sat  sdf

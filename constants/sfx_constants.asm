@@ -167,7 +167,7 @@
 	const SFX_EVOLVED                     ; a4
 	const SFX_MASTER_BALL                 ; a5
 	const SFX_EGG_HATCH                   ; a6
-	const SFX_GS_INTRO_CHARIZARD_FIREBALL ; a7
+	const SFX_GS_INTRO_DRAPION_FIREBALL ; a7
 	const SFX_GS_INTRO_POKEMON_APPEARS    ; a8
 	const SFX_FLASH                       ; a9
 	const SFX_GAME_FREAK_LOGO_GS          ; aa
@@ -197,7 +197,7 @@
 	const SFX_DITTO_POP_UP                ; c1
 	const SFX_DITTO_TRANSFORM             ; c2
 	const SFX_INTRO_SUICUNE_1             ; c3
-	const SFX_INTRO_PICHU                 ; c4
+	const SFX_INTRO_SALAMENCE                 ; c4
 	const SFX_INTRO_SUICUNE_2             ; c5
 	const SFX_INTRO_SUICUNE_3             ; c6
 	const SFX_DITTO_BOUNCE                ; c7

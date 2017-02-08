@@ -416,7 +416,7 @@ endr
 	jr nz, .valid
 
 .invalid
-	ld a, SMEARGLE
+	ld a, TROPIUS
 	ld [hl], a
 
 .valid

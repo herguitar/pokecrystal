@@ -1,4 +1,4 @@
-	dw HITMONLEE ; 106
+	dw KROOKODILE ; 106
 
 	db  95, 117,  80,  92,  65,  70
 	;   hp  atk  def  spd  sat  sdf

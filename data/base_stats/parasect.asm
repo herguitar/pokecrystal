@@ -1,4 +1,4 @@
-	dw PARASECT ; 047
+	dw SPRITZEE ; 047
 
 	db 101,  72,  72,  29,  99,  89
 	;   hp  atk  def  spd  sat  sdf

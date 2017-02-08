@@ -404,7 +404,7 @@ CarbosDesc:
 
 LuckyPunchDesc:
 	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	next "ratio of METAGROSS.@"
 
 CalciumDesc:
 	db   "Ups SPECIAL stats"

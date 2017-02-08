@@ -23,13 +23,13 @@ CorrectErrorsInPlayerParty: ; unreferenced
 	jr c, .next_species
 
 .invalid_species
-	ld [hl], SMEARGLE
+	ld [hl], TROPIUS
 	push hl
 	push bc
 	ld a, c
 	ld hl, PartyMon1Species
 	call GetPartyLocation
-	ld [hl], SMEARGLE
+	ld [hl], TROPIUS
 	pop bc
 	pop hl
 
@@ -56,13 +56,13 @@ CorrectErrorsInPlayerParty: ; unreferenced
 	jr c, .check_level
 
 .invalid_species_2
-	ld [hl], SMEARGLE
+	ld [hl], TROPIUS
 	push de
 	ld d, 0
 	ld hl, PartySpecies
 	add hl, de
 	pop de
-	ld a, SMEARGLE
+	ld a, TROPIUS
 	ld [hl], a
 
 .check_level

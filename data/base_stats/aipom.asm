@@ -1,4 +1,4 @@
-	dw AIPOM ; 190
+	dw BUDEW ; 190
 
 	db  40,  30,  35,  55,  50,  70
 	;   hp  atk  def  spd  sat  sdf

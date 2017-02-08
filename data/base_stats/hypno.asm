@@ -1,4 +1,4 @@
-	dw HYPNO ; 097
+	dw MIGHTYENA ; 097
 
 	db  70,  90,  70,  70,  60,  60
 	;   hp  atk  def  spd  sat  sdf

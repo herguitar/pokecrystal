@@ -1,4 +1,4 @@
-	dw KABUTOPS ; 141
+	dw LAMPENT ; 141
 
 	db  60,  40,  60,  55,  95,  60
 	;   hp  atk  def  spd  sat  sdf

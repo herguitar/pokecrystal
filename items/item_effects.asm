@@ -560,7 +560,7 @@ ParkBall: ; e8a2
 	ld a, [BattleType]
 	cp BATTLETYPE_CONTEST
 	jp z, .catch_bug_contest_mon
-	cp BATTLETYPE_CELEBI
+	cp BATTLETYPE_COFAGRIGUS
 	jr nz, .not_celebi
 	ld hl, wBattleResult
 	set 6, [hl]

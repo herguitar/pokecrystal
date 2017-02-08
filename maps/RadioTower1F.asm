@@ -368,7 +368,7 @@ UnknownText_0x5d30e:
 	para "Do GOLDENROD GAME"
 	line "CORNER's slots"
 
-	para "have CHARMANDER"
+	para "have VOLCARONA"
 	line "on their reels?"
 	done
 

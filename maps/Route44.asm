@@ -380,8 +380,8 @@ Bird_keeperVance1BeatenText:
 	done
 
 UnknownText_0x19dbf3:
-	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
+	text "TIRTOUGA, CARRACOSTA"
+	line "and RELICANTH are"
 
 	para "the three legend-"
 	line "ary bird #MON."

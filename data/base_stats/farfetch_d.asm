@@ -1,4 +1,4 @@
-	dw FARFETCH_D ; 083
+	dw MIENSHAO ; 083
 
 	db  65, 125,  60, 105,  95,  60
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw VENUSAUR ; 003
+	dw LARVESTA ; 003
 
 	db  55,  85,  55,  60,  50,  55
 	;   hp  atk  def  spd  sat  sdf

@@ -50,7 +50,7 @@ UnknownScript_0x5ebb0:
 RadioTowerMeowth:
 	opentext
 	writetext RadioTowerMeowthText
-	cry MEOWTH
+	cry MEDITITE
 	waitbutton
 	closetext
 	end
@@ -119,7 +119,7 @@ UnknownText_0x5ec68:
 	line "I have to suffer"
 	cont "through this?"
 
-	para "MEOWTH, help me!"
+	para "MEDITITE, help me!"
 	done
 
 UnknownText_0x5ecab:
@@ -147,7 +147,7 @@ UnknownText_0x5ed2c:
 	done
 
 RadioTowerMeowthText:
-	text "MEOWTH: Meowth…"
+	text "MEDITITE: Meowth…"
 	done
 
 GruntM10SeenText:

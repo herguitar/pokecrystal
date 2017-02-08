@@ -1,4 +1,4 @@
-	dw MUK ; 089
+	dw TYNAMO ; 089
 
 	db  35,  55,  40,  60,  45,  40
 	;   hp  atk  def  spd  sat  sdf

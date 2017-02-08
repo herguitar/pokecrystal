@@ -1,4 +1,4 @@
-	dw RATTATA ; 019
+	dw DEWPIDER ; 019
 
 	db  38,  40,  52,  27,  40,  72
 	;   hp  atk  def  spd  sat  sdf

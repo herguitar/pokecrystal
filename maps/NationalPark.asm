@@ -5,7 +5,7 @@ const_value set 2
 	const NATIONALPARK_YOUNGSTER1
 	const NATIONALPARK_YOUNGSTER2
 	const NATIONALPARK_TEACHER2
-	const NATIONALPARK_PERSIAN
+	const NATIONALPARK_MEDICHAM
 	const NATIONALPARK_YOUNGSTER3
 	const NATIONALPARK_POKEFAN_F2
 	const NATIONALPARK_POKEFAN_M
@@ -57,7 +57,7 @@ NationalParkPersian:
 	faceplayer
 	opentext
 	writetext NationalParkPersianText
-	cry PERSIAN
+	cry MEDICHAM
 	waitbutton
 	closetext
 	end
@@ -378,7 +378,7 @@ UnknownText_0x5c3bc:
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "MEDICHAM: Fufushaa!"
 	done
 
 UnknownText_0x5c42a:

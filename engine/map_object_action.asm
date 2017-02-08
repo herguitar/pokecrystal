@@ -275,7 +275,7 @@ Function45be: ; 45be
 Function45c5: ; 45c5
 	ld a, [VariableSprites + SPRITE_BIG_DOLL - SPRITE_VARS]
 	ld d, FACING_17 ; symmetric
-	cp SPRITE_BIG_SNORLAX
+	cp SPRITE_BIG_CHANDELURE
 	jr z, .ok
 	cp SPRITE_BIG_LAPRAS
 	jr z, .ok

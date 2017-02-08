@@ -1,4 +1,4 @@
-	dw VENOMOTH ; 049
+	dw SLURPUFF ; 049
 
 	db  82,  80,  86,  72,  85,  75
 	;   hp  atk  def  spd  sat  sdf

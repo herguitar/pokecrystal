@@ -1,4 +1,4 @@
-	dw VENONAT ; 048
+	dw SWIRLIX ; 048
 
 	db  62,  48,  66,  49,  59,  57
 	;   hp  atk  def  spd  sat  sdf

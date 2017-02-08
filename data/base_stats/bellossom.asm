@@ -1,4 +1,4 @@
-	dw BELLOSSOM ; 182
+	dw GARBADOR ; 182
 
 	db  80,  95,  82,  75,  60,  82
 	;   hp  atk  def  spd  sat  sdf

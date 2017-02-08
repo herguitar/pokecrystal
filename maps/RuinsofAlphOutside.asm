@@ -294,8 +294,8 @@ RuinsofAlphOutside_MapEventHeader:
 .Warps:
 	db 11
 	warp_def $11, $2, 1, RUINS_OF_ALPH_HO_OH_CHAMBER
-	warp_def $7, $e, 1, RUINS_OF_ALPH_KABUTO_CHAMBER
-	warp_def $1d, $2, 1, RUINS_OF_ALPH_OMANYTE_CHAMBER
+	warp_def $7, $e, 1, RUINS_OF_ALPH_LITWICK_CHAMBER
+	warp_def $1d, $2, 1, RUINS_OF_ALPH_BRAVIARY_CHAMBER
 	warp_def $21, $10, 1, RUINS_OF_ALPH_AERODACTYL_CHAMBER
 	warp_def $d, $a, 1, RUINS_OF_ALPH_INNER_CHAMBER
 	warp_def $b, $11, 1, RUINS_OF_ALPH_RESEARCH_CENTER

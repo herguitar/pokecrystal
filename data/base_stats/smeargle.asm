@@ -1,4 +1,4 @@
-	dw SMEARGLE ; 235
+	dw TROPIUS ; 235
 
 	db  99,  68,  83,  51,  72,  87
 	;   hp  atk  def  spd  sat  sdf

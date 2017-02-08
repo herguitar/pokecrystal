@@ -1,4 +1,4 @@
-	dw SPINARAK ; 167
+	dw SALANDIT ; 167
 
 	db  48,  44,  40,  77,  71,  40
 	;   hp  atk  def  spd  sat  sdf

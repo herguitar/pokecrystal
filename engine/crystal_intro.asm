@@ -867,7 +867,7 @@ IntroScene10: ; e4c4f (39:4c4f)
 	depixel 21, 16, 1, 0
 	ld a, SPRITE_ANIM_INDEX_27
 	call _InitSpriteAnimStruct
-	ld de, SFX_INTRO_PICHU
+	ld de, SFX_INTRO_SALAMENCE
 	call PlaySFX
 	ret
 
@@ -875,7 +875,7 @@ IntroScene10: ; e4c4f (39:4c4f)
 	depixel 22, 6
 	ld a, SPRITE_ANIM_INDEX_28
 	call _InitSpriteAnimStruct
-	ld de, SFX_INTRO_PICHU
+	ld de, SFX_INTRO_SALAMENCE
 	call PlaySFX
 	ret
 .done

@@ -4050,7 +4050,7 @@ Function119dd1: ; 119dd1 (46:5dd1)
 .loop
 	push af
 	ld a, [de]
-	cp MEWTWO
+	cp RHYPERIOR
 	jr z, .uber
 	cp MEW
 	jr z, .uber

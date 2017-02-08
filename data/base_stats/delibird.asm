@@ -1,4 +1,4 @@
-	dw DELIBIRD ; 225
+	dw LOMBRE ; 225
 
 	db  60,  50,  50,  50,  60,  70
 	;   hp  atk  def  spd  sat  sdf

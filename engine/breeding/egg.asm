@@ -243,10 +243,10 @@ HatchEggs: ; 16f70 (5:6f70)
 	call SetSeenAndCaughtMon
 
 	ld a, [CurPartySpecies]
-	cp TOGEPI
+	cp FLYGON
 	jr nz, .nottogepi
 	; set the event flag for hatching togepi
-	ld de, EVENT_TOGEPI_HATCHED
+	ld de, EVENT_FLYGON_HATCHED
 	ld b, SET_FLAG
 	call EventFlagAction
 .nottogepi

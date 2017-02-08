@@ -1,4 +1,4 @@
-	dw SHELLDER ; 090
+	dw ELEKTRIK ; 090
 
 	db  65,  85,  70,  40,  75,  70
 	;   hp  atk  def  spd  sat  sdf

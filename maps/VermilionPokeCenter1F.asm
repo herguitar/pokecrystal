@@ -17,7 +17,7 @@ NurseScript_0x191603:
 FishingGuruScript_0x191606:
 	faceplayer
 	opentext
-	checkevent EVENT_FOUGHT_SNORLAX
+	checkevent EVENT_FOUGHT_CHANDELURE
 	iftrue UnknownScript_0x191614
 	writetext UnknownText_0x191620
 	waitbutton
@@ -39,7 +39,7 @@ BugCatcherScript_0x19161d:
 UnknownText_0x191620:
 	text "A sleeping #MON"
 	line "is lying in front"
-	cont "of DIGLETT'S CAVE."
+	cont "of SYLVEON'S CAVE."
 
 	para "It's a fantastic"
 	line "opportunity to get"
@@ -53,7 +53,7 @@ UnknownText_0x191698:
 	line "sleeping #MON"
 
 	para "lying in front of"
-	line "DIGLETT'S CAVE."
+	line "SYLVEON'S CAVE."
 
 	para "But it seems to"
 	line "have disappeared."

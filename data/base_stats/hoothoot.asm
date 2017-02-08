@@ -1,4 +1,4 @@
-	dw HOOTHOOT ; 163
+	dw DARUMAKA ; 163
 
 	db  70,  90,  45,  50,  15,  45
 	;   hp  atk  def  spd  sat  sdf

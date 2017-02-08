@@ -1,4 +1,4 @@
-	dw SLUGMA ; 218
+	dw TANGROWTH ; 218
 
 	db 100, 100, 125,  50, 110,  50
 	;   hp  atk  def  spd  sat  sdf

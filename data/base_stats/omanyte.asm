@@ -1,4 +1,4 @@
-	dw OMANYTE ; 138
+	dw BRAVIARY ; 138
 
 	db 100, 123,  75,  80,  57,  75
 	;   hp  atk  def  spd  sat  sdf

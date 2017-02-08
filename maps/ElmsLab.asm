@@ -108,14 +108,14 @@ ElmCheckMasterBall:
 ElmCheckEverstone:
 	checkevent EVENT_GOT_EVERSTONE_FROM_ELM
 	iftrue ElmScript_CallYou
-	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+	checkevent EVENT_SHOWED_FLYGON_TO_ELM
 	iftrue ElmGiveEverstoneScript
-	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
+	checkevent EVENT_TOLD_ELM_ABOUT_FLYGON_OVER_THE_PHONE
 	iffalse ElmCheckTogepiEgg
-	writebyte TOGEPI
+	writebyte FLYGON
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
-	writebyte TOGETIC
+	writebyte TRUBBISH
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
 	writetext UnknownText_0x79a40
@@ -124,21 +124,21 @@ ElmCheckEverstone:
 	end
 
 ElmEggHatchedScript:
-	writebyte TOGEPI
+	writebyte FLYGON
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
-	writebyte TOGETIC
+	writebyte TRUBBISH
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
 	jump ElmCheckGotEggAgain
 
 ElmCheckTogepiEgg:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_FLYGON_EGG_FROM_ELMS_AIDE
 	iffalse ElmCheckGotEggAgain
-	checkevent EVENT_TOGEPI_HATCHED
+	checkevent EVENT_FLYGON_HATCHED
 	iftrue ElmEggHatchedScript
 ElmCheckGotEggAgain:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
+	checkevent EVENT_GOT_FLYGON_EGG_FROM_ELMS_AIDE ; why are we checking it again?
 	iftrue ElmWaitingEggHatchScript
 	checkflag ENGINE_ZEPHYRBADGE
 	iftrue ElmAideHasEggScript
@@ -378,7 +378,7 @@ ShowElmTogepiScript:
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
-	setevent EVENT_SHOWED_TOGEPI_TO_ELM
+	setevent EVENT_SHOWED_FLYGON_TO_ELM
 	opentext
 	writetext ShowElmTogepiText2
 	buttonsound
@@ -523,7 +523,7 @@ AideScript_ReceiveTheBalls:
 ElmsAideScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_FLYGON_EGG_FROM_ELMS_AIDE
 	iftrue AideScript_AfterTheft
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue AideScript_ExplainBalls

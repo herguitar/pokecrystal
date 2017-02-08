@@ -155,7 +155,7 @@ UnknownText_0x1a9cc4:
 	line "off in the sun."
 
 	para "…I had this dream"
-	line "about a DROWZEE"
+	line "about a POOCHYENA"
 
 	para "eating my dream."
 	line "Weird, huh?"

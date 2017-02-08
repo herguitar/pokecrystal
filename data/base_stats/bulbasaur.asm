@@ -1,4 +1,4 @@
-	dw BULBASAUR ; 001
+	dw SURSKIT ; 001
 
 	db  40,  30,  32,  65, 50,  52
 	;   hp  atk  def  spd  sat  sdf

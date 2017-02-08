@@ -21,15 +21,15 @@ GrampsScript_0x189538:
 	buttonsound
 	setevent EVENT_MET_BILLS_GRANDPA
 .MetGrandpa:
-	checkevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
+	checkevent EVENT_SHOWED_SALAMENCE_TO_BILLS_GRANDPA
 	iftrue .ShowedPichu
 	checkevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
 	iftrue .ShowedGrowlitheVulpix
 	checkevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 	iftrue .ShowedStaryu
-	checkevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
+	checkevent EVENT_SHOWED_MAMOSWINE_TO_BILLS_GRANDPA
 	iftrue .ShowedOddish
-	checkevent EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
+	checkevent EVENT_SHOWED_MANDIBUZZ_TO_BILLS_GRANDPA
 	iftrue .ShowedLickitung
 	writetext BillsGrandpaLickitungText
 	buttonsound
@@ -39,9 +39,9 @@ GrampsScript_0x189538:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse .SaidNo
-	if_not_equal LICKITUNG, .WrongPokemon
+	if_not_equal MANDIBUZZ, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
+	setevent EVENT_SHOWED_MANDIBUZZ_TO_BILLS_GRANDPA
 	jump .ShowedLickitung
 
 .GotEverstone:
@@ -53,9 +53,9 @@ GrampsScript_0x189538:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse .SaidNo
-	if_not_equal ODDISH, .WrongPokemon
+	if_not_equal MAMOSWINE, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
+	setevent EVENT_SHOWED_MAMOSWINE_TO_BILLS_GRANDPA
 	jump .ShowedOddish
 
 .GotLeafStone:
@@ -111,9 +111,9 @@ GrampsScript_0x189538:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse .SaidNo
-	if_not_equal PICHU, .WrongPokemon
+	if_not_equal SALAMENCE, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
+	setevent EVENT_SHOWED_SALAMENCE_TO_BILLS_GRANDPA
 	jump .ShowedPichu
 
 .ShowedLickitung:

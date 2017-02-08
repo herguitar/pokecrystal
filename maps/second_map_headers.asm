@@ -300,18 +300,18 @@
 	map_header_2 RadioTower5F, RADIO_TOWER_5F, $0, 0
 	map_header_2 RuinsofAlphOutside, RUINS_OF_ALPH_OUTSIDE, $5, 0
 	map_header_2 RuinsofAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $0, 0
-	map_header_2 RuinsofAlphKabutoChamber, RUINS_OF_ALPH_KABUTO_CHAMBER, $0, 0
-	map_header_2 RuinsofAlphOmanyteChamber, RUINS_OF_ALPH_OMANYTE_CHAMBER, $0, 0
+	map_header_2 RuinsofAlphKabutoChamber, RUINS_OF_ALPH_LITWICK_CHAMBER, $0, 0
+	map_header_2 RuinsofAlphOmanyteChamber, RUINS_OF_ALPH_BRAVIARY_CHAMBER, $0, 0
 	map_header_2 RuinsofAlphAerodactylChamber, RUINS_OF_ALPH_AERODACTYL_CHAMBER, $0, 0
 	map_header_2 RuinsofAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $0, 0
 	map_header_2 RuinsofAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $0, 0
 	map_header_2 RuinsofAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $0, 0
-	map_header_2 RuinsofAlphKabutoItemRoom, RUINS_OF_ALPH_KABUTO_ITEM_ROOM, $0, 0
-	map_header_2 RuinsofAlphOmanyteItemRoom, RUINS_OF_ALPH_OMANYTE_ITEM_ROOM, $0, 0
+	map_header_2 RuinsofAlphKabutoItemRoom, RUINS_OF_ALPH_LITWICK_ITEM_ROOM, $0, 0
+	map_header_2 RuinsofAlphOmanyteItemRoom, RUINS_OF_ALPH_BRAVIARY_ITEM_ROOM, $0, 0
 	map_header_2 RuinsofAlphAerodactylItemRoom, RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM, $0, 0
 	map_header_2 RuinsofAlphHoOhWordRoom, RUINS_OF_ALPH_HO_OH_WORD_ROOM, $0, 0
-	map_header_2 RuinsofAlphKabutoWordRoom, RUINS_OF_ALPH_KABUTO_WORD_ROOM, $0, 0
-	map_header_2 RuinsofAlphOmanyteWordRoom, RUINS_OF_ALPH_OMANYTE_WORD_ROOM, $0, 0
+	map_header_2 RuinsofAlphKabutoWordRoom, RUINS_OF_ALPH_LITWICK_WORD_ROOM, $0, 0
+	map_header_2 RuinsofAlphOmanyteWordRoom, RUINS_OF_ALPH_BRAVIARY_WORD_ROOM, $0, 0
 	map_header_2 RuinsofAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $0, 0
 	map_header_2 UnionCave1F, UNION_CAVE_1F, $9, 0
 	map_header_2 UnionCaveB1F, UNION_CAVE_B1F, $9, 0
@@ -375,7 +375,7 @@
 	map_header_2 MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_header_2 MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
 	map_header_2 Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
-	map_header_2 DiglettsCave, DIGLETTS_CAVE, $9, 0
+	map_header_2 DiglettsCave, SYLVEONS_CAVE, $9, 0
 	map_header_2 MountMoon, MOUNT_MOON, $9, 0
 	map_header_2 Underground, UNDERGROUND, $0, 0
 	map_header_2 RockTunnel1F, ROCK_TUNNEL_1F, $9, 0
@@ -462,7 +462,7 @@
 	map_header_2 PokemonFanClub, POKEMON_FAN_CLUB, $0, 0
 	map_header_2 VermilionMagnetTrainSpeechHouse, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, $0, 0
 	map_header_2 VermilionMart, VERMILION_MART, $0, 0
-	map_header_2 VermilionHouseDiglettsCaveSpeechHouse, VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE, $0, 0
+	map_header_2 VermilionHouseDiglettsCaveSpeechHouse, VERMILION_HOUSE_SYLVEONS_CAVE_SPEECH_HOUSE, $0, 0
 	map_header_2 VermilionGym, VERMILION_GYM, $0, 0
 	map_header_2 Route6SaffronGate, ROUTE_6_SAFFRON_GATE, $0, 0
 	map_header_2 Route6UndergroundEntrance, ROUTE_6_UNDERGROUND_ENTRANCE, $0, 0

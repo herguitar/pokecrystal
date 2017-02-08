@@ -1,4 +1,4 @@
-	dw SQUIRTLE ; 007
+	dw COMBEE ; 007
 
 	db  30,  30,  42,  70,  30,  42
 	;   hp  atk  def  spd  sat  sdf

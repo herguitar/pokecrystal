@@ -1,5 +1,5 @@
 const_value set 2
-	const DIGLETTSCAVE_POKEFAN_M
+	const SYLVEONSCAVE_POKEFAN_M
 
 DiglettsCave_MapScriptHeader:
 .MapTriggers:
@@ -12,11 +12,11 @@ PokefanMScript_0x74002:
 	jumptextfaceplayer UnknownText_0x74008
 
 DiglettsCaveHiddenMaxRevive:
-	dwb EVENT_DIGLETTS_CAVE_HIDDEN_MAX_REVIVE, MAX_REVIVE
+	dwb EVENT_SYLVEONS_CAVE_HIDDEN_MAX_REVIVE, MAX_REVIVE
 
 
 UnknownText_0x74008:
-	text "A bunch of DIGLETT"
+	text "A bunch of SYLVEON"
 	line "popped out of the"
 
 	para "ground! That was"
@@ -30,11 +30,11 @@ DiglettsCave_MapEventHeader:
 .Warps:
 	db 6
 	warp_def $21, $3, 10, VERMILION_CITY
-	warp_def $1f, $5, 5, DIGLETTS_CAVE
+	warp_def $1f, $5, 5, SYLVEONS_CAVE
 	warp_def $5, $f, 5, ROUTE_2
-	warp_def $3, $11, 6, DIGLETTS_CAVE
-	warp_def $21, $11, 2, DIGLETTS_CAVE
-	warp_def $3, $3, 4, DIGLETTS_CAVE
+	warp_def $3, $11, 6, SYLVEONS_CAVE
+	warp_def $21, $11, 2, SYLVEONS_CAVE
+	warp_def $3, $3, 4, SYLVEONS_CAVE
 
 .XYTriggers:
 	db 0

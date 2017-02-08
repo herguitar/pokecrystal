@@ -170,7 +170,7 @@ UnknownText_0x6455b: ; 0x6455b
 	text "I saw, I saw!"
 
 	para "You waking up"
-	line "SNORLAX!"
+	line "CHANDELURE!"
 
 	para "I was watching you"
 	line "from afar, so I"
@@ -416,7 +416,7 @@ UnknownText_0x64c5a: ; 0x64c5a
 	line "coming or what?"
 
 	para "You're missing out"
-	line "on seeing YANMA!"
+	line "on seeing MUDKIP!"
 
 	para "Get down to ROUTE"
 	line "35 right now!"

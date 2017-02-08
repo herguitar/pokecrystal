@@ -1,4 +1,4 @@
-	dw DEWGONG ; 087
+	dw LUXIO ; 087
 
 	db  60,  85,  49,  60,  60,  49
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw CHANSEY ; 113
+	dw METAGROSS ; 113
 
 	db  80, 135, 130,  70,  95,  90
 	;   hp  atk  def  spd  sat  sdf

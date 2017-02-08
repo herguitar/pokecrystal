@@ -1,4 +1,4 @@
-	dw LEDIAN ; 166
+	dw TURTONATOR ; 166
 
 	db  60,  78, 135,  36,  91,  85
 	;   hp  atk  def  spd  sat  sdf

@@ -38,9 +38,9 @@
 
 	map ILEX_FOREST
 	db 2 percent ; encounter rate
-	db 15, PSYDUCK
-	db 10, PSYDUCK
-	db 15, GOLDUCK
+	db 15, HAWLUCHA
+	db 10, HAWLUCHA
+	db 15, CROAGUNK
 
 	map MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
@@ -81,7 +81,7 @@
 	map SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
 	db 35, SEAKING
-	db 35, GOLDUCK
+	db 35, CROAGUNK
 	db 35, GOLDEEN
 
 	map DARK_CAVE_VIOLET_ENTRANCE
@@ -134,9 +134,9 @@
 
 	map ROUTE_35
 	db 4 percent ; encounter rate
-	db 20, PSYDUCK
-	db 15, PSYDUCK
-	db 20, GOLDUCK
+	db 20, HAWLUCHA
+	db 15, HAWLUCHA
+	db 20, CROAGUNK
 
 	map ROUTE_40
 	db 6 percent ; encounter rate
@@ -148,7 +148,7 @@
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 20, TENTACRUEL
-	db 20, MANTINE
+	db 20, LUDICOLO
 
 	map ROUTE_42
 	db 4 percent ; encounter rate

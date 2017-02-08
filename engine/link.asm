@@ -1948,10 +1948,10 @@ LinkTrade: ; 28b87
 	jr z, .loop
 	ld b, $2
 	ld a, c
-	cp CELEBI
+	cp COFAGRIGUS
 	jr z, .loop
 	ld a, [CurPartySpecies]
-	cp CELEBI
+	cp COFAGRIGUS
 	jr z, .loop
 	ld b, $0
 

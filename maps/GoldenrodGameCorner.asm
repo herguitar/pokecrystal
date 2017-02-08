@@ -199,16 +199,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	if_equal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	checkcode VAR_PARTYCOUNT
 	if_equal $6, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	pokenamemem CUBONE, $0
+	pokenamemem SANDILE, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	writebyte CUBONE
+	writebyte SANDILE
 	special Special_GameCornerPrizeMonCheckDex
-	givepoke CUBONE, 15
+	givepoke SANDILE, 15
 	takecoins 800
 	jump .loop
 
@@ -217,16 +217,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	if_equal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	checkcode VAR_PARTYCOUNT
 	if_equal $6, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	pokenamemem WOBBUFFET, $0
+	pokenamemem MARSHTOMP, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	writebyte WOBBUFFET
+	writebyte MARSHTOMP
 	special Special_GameCornerPrizeMonCheckDex
-	givepoke WOBBUFFET, 15
+	givepoke MARSHTOMP, 15
 	takecoins 1500
 	jump .loop
 
@@ -242,8 +242,8 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db $80 ; flags
 	db 4 ; items
 	db "ABRA        100@"
-	db "CUBONE      800@"
-	db "WOBBUFFET  1500@"
+	db "SANDILE      800@"
+	db "MARSHTOMP  1500@"
 	db "CANCEL@"
 
 

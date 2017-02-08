@@ -1,4 +1,4 @@
-	dw SUNKERN ; 191
+	dw ROSELIA ; 191
 
 	db  50,  60,  45,  65, 100,  80
 	;   hp  atk  def  spd  sat  sdf

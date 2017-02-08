@@ -1,4 +1,4 @@
-	dw ELECTABUZZ ; 125
+	dw MISMAGIUS ; 125
 
 	db  60,  60,  60, 105, 105, 105
 	;   hp  atk  def  spd  sat  sdf

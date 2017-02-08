@@ -1,4 +1,4 @@
-	dw ODDISH ; 043
+	dw MAMOSWINE ; 043
 
 	db 110, 130,  80,  80,  70,  60
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw GLOOM ; 044
+	dw MAWILE ; 044
 
 	db  50,  85,  85,  50,  55,  55
 	;   hp  atk  def  spd  sat  sdf

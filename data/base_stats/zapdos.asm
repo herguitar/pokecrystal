@@ -1,4 +1,4 @@
-	dw ZAPDOS ; 145
+	dw CARRACOSTA ; 145
 
 	db  74, 108, 133,  32,  83,  65
 	;   hp  atk  def  spd  sat  sdf

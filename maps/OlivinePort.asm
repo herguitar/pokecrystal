@@ -350,7 +350,7 @@ UnknownText_0x74bce:
 	done
 
 UnknownText_0x74bf4:
-	text "SHELLDER are easy"
+	text "ELEKTRIK are easy"
 	line "to catch here."
 
 	para "They're kind of"

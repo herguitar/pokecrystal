@@ -1,4 +1,4 @@
-	dw HITMONCHAN ; 107
+	dw VULLABY ; 107
 
 	db  70,  55,  75,  60,  45,  65
 	;   hp  atk  def  spd  sat  sdf

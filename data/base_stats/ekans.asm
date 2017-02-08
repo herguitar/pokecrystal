@@ -1,4 +1,4 @@
-	dw EKANS ; 023
+	dw VIKAVOLT ; 023
 
 	db  77,  70,  90,  43, 145,  75
 	;   hp  atk  def  spd  sat  sdf

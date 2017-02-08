@@ -1,4 +1,4 @@
-	dw MANKEY ; 056
+	dw TOXICROAK ; 056
 
 	db  83, 106,  65,  85,  86,  65
 	;   hp  atk  def  spd  sat  sdf

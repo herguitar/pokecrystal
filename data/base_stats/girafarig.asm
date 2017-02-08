@@ -1,4 +1,4 @@
-	dw GIRAFARIG ; 203
+	dw SWAMPERT ; 203
 
 	db 100, 110,  90,  60,  85,  90
 	;   hp  atk  def  spd  sat  sdf

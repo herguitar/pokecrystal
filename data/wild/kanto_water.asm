@@ -20,9 +20,9 @@
 
 	map ROUTE_6
 	db 2 percent ; encounter rate
-	db 10, PSYDUCK
-	db 5, PSYDUCK
-	db 10, GOLDUCK
+	db 10, HAWLUCHA
+	db 5, HAWLUCHA
+	db 10, CROAGUNK
 
 	map ROUTE_9
 	db 4 percent ; encounter rate
@@ -128,9 +128,9 @@
 
 	map CELADON_CITY
 	db 2 percent ; encounter rate
-	db 20, GRIMER
-	db 15, GRIMER
-	db 15, MUK
+	db 20, LUXRAY
+	db 15, LUXRAY
+	db 15, TYNAMO
 
 	map FUCHSIA_CITY
 	db 2 percent ; encounter rate

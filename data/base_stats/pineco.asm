@@ -1,4 +1,4 @@
-	dw PINECO ; 204
+	dw HIPPOPOTAS ; 204
 
 	db  68,  72,  78,  32,  38,  42
 	;   hp  atk  def  spd  sat  sdf

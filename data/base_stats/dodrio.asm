@@ -1,4 +1,4 @@
-	dw DODRIO ; 085
+	dw BEWEAR ; 085
 
 	db 120, 125,  80,  60,  55,  60
 	;   hp  atk  def  spd  sat  sdf

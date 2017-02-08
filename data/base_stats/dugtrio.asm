@@ -1,4 +1,4 @@
-	dw DUGTRIO ; 051
+	dw MIMIKYU ; 051
 
 	db  55,  90,  80,  96,  50, 105
 	;   hp  atk  def  spd  sat  sdf

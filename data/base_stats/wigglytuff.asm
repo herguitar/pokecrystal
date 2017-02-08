@@ -1,4 +1,4 @@
-	dw WIGGLYTUFF ; 040
+	dw GLACEON ; 040
 
 	db  64,  60, 110,  65, 130,  95
 	;   hp  atk  def  spd  sat  sdf

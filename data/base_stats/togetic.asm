@@ -1,4 +1,4 @@
-	dw TOGETIC ; 176
+	dw TRUBBISH ; 176
 
 	db  50,  50,  62,  65,  40,  62
 	;   hp  atk  def  spd  sat  sdf

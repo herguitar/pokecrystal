@@ -1,4 +1,4 @@
-	dw PICHU ; 172
+	dw SALAMENCE ; 172
 
 	db  95, 135,  80, 100, 110,  80
 	;   hp  atk  def  spd  sat  sdf
@@ -6,7 +6,7 @@
 
 	db DRAGON, FLYING
 	db 45 ; catch rate
-	db 270 ; base exp
+	db 218 ; base exp
 	db NO_ITEM ; item 1
 	db NO_ITEM ; item 2
 	db 127 ; gender

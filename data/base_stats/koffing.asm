@@ -1,4 +1,4 @@
-	dw KOFFING ; 109
+	dw BELDUM ; 109
 
 	db  40,  55,  80,  30,  35,  60
 	;   hp  atk  def  spd  sat  sdf

@@ -1,4 +1,4 @@
-	dw SUNFLORA ; 192
+	dw ROSERADE ; 192
 
 	db  60,  70,  65,  90, 125, 105
 	;   hp  atk  def  spd  sat  sdf

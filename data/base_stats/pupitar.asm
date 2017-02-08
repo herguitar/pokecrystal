@@ -1,4 +1,4 @@
-	dw PUPITAR ; 247
+	dw ELKENTHAL ; 247
 
 	db  70,  84,  70,  51,  65,  70
 	;   hp  atk  def  spd  sat  sdf

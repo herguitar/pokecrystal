@@ -1,4 +1,4 @@
-	dw GOLDUCK ; 055
+	dw CROAGUNK ; 055
 
 	db  48,  61,  40,  50,  61,  40
 	;   hp  atk  def  spd  sat  sdf

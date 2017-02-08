@@ -1,4 +1,4 @@
-	dw SENTRET ; 161
+	dw LYCANROC_D ; 161
 
 	db  75, 115,  65, 112,  55,  65
 	;   hp  atk  def  spd  sat  sdf

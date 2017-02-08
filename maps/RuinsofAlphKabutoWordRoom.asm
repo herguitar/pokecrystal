@@ -11,8 +11,8 @@ RuinsofAlphKabutoWordRoom_MapEventHeader:
 
 .Warps:
 	db 3
-	warp_def $5, $9, 3, RUINS_OF_ALPH_KABUTO_ITEM_ROOM
-	warp_def $5, $a, 4, RUINS_OF_ALPH_KABUTO_ITEM_ROOM
+	warp_def $5, $9, 3, RUINS_OF_ALPH_LITWICK_ITEM_ROOM
+	warp_def $5, $a, 4, RUINS_OF_ALPH_LITWICK_ITEM_ROOM
 	warp_def $b, $11, 4, RUINS_OF_ALPH_INNER_CHAMBER
 
 .XYTriggers:

@@ -1,7 +1,7 @@
 const_value set 2
 	const MRFUJISHOUSE_SUPER_NERD
 	const MRFUJISHOUSE_LASS
-	const MRFUJISHOUSE_PSYDUCK
+	const MRFUJISHOUSE_HAWLUCHA
 	const MRFUJISHOUSE_NIDORINO
 	const MRFUJISHOUSE_PIDGEY
 
@@ -21,7 +21,7 @@ LassScript_0x7e8cd:
 MrFujisPsyduck:
 	opentext
 	writetext MrFujisPsyduckText
-	cry PSYDUCK
+	cry HAWLUCHA
 	waitbutton
 	closetext
 	end
@@ -68,7 +68,7 @@ UnknownText_0x7e940:
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Gu-guwa?"
+	text "HAWLUCHA: Gu-guwa?"
 	done
 
 MrFujisNidorinoText:
@@ -102,4 +102,4 @@ MrFujisHouse_MapEventHeader:
 	person_event SPRITE_LASS, 4, 3, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, PERSONTYPE_SCRIPT, 0, LassScript_0x7e8cd, -1
 	person_event SPRITE_RHYDON, 4, 7, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, MrFujisPsyduck, -1
 	person_event SPRITE_GROWLITHE, 5, 5, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, MrFujisNidorino, -1
-	person_event SPRITE_MOLTRES, 3, 1, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, MrFujisPidgey, -1
+	person_event SPRITE_RELICANTH, 3, 1, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BROWN, PERSONTYPE_SCRIPT, 0, MrFujisPidgey, -1

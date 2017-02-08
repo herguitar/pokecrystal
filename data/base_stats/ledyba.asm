@@ -1,4 +1,4 @@
-	dw LEDYBA ; 165
+	dw DARM_ZEN ; 165
 
 	db 105,  30, 105,  55, 140, 105
 	;   hp  atk  def  spd  sat  sdf

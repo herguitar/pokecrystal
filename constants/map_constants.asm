@@ -58,18 +58,18 @@ MAP_NONE   EQU 0
 	mapgroup RADIO_TOWER_5F,                              4,  9 ; 21
 	mapgroup RUINS_OF_ALPH_OUTSIDE,                      18, 10 ; 22
 	mapgroup RUINS_OF_ALPH_HO_OH_CHAMBER,                 5,  4 ; 23
-	mapgroup RUINS_OF_ALPH_KABUTO_CHAMBER,                5,  4 ; 24
-	mapgroup RUINS_OF_ALPH_OMANYTE_CHAMBER,               5,  4 ; 25
+	mapgroup RUINS_OF_ALPH_LITWICK_CHAMBER,                5,  4 ; 24
+	mapgroup RUINS_OF_ALPH_BRAVIARY_CHAMBER,               5,  4 ; 25
 	mapgroup RUINS_OF_ALPH_AERODACTYL_CHAMBER,            5,  4 ; 26
 	mapgroup RUINS_OF_ALPH_INNER_CHAMBER,                14, 10 ; 27
 	mapgroup RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ; 28
 	mapgroup RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               5,  4 ; 29
-	mapgroup RUINS_OF_ALPH_KABUTO_ITEM_ROOM,              5,  4 ; 30
-	mapgroup RUINS_OF_ALPH_OMANYTE_ITEM_ROOM,             5,  4 ; 31
+	mapgroup RUINS_OF_ALPH_LITWICK_ITEM_ROOM,              5,  4 ; 30
+	mapgroup RUINS_OF_ALPH_BRAVIARY_ITEM_ROOM,             5,  4 ; 31
 	mapgroup RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM,          5,  4 ; 32
 	mapgroup RUINS_OF_ALPH_HO_OH_WORD_ROOM,              12, 10 ; 33
-	mapgroup RUINS_OF_ALPH_KABUTO_WORD_ROOM,              7, 10 ; 34
-	mapgroup RUINS_OF_ALPH_OMANYTE_WORD_ROOM,             8, 10 ; 35
+	mapgroup RUINS_OF_ALPH_LITWICK_WORD_ROOM,              7, 10 ; 34
+	mapgroup RUINS_OF_ALPH_BRAVIARY_WORD_ROOM,             8, 10 ; 35
 	mapgroup RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,          7, 10 ; 36
 	mapgroup UNION_CAVE_1F,                              18, 10 ; 37
 	mapgroup UNION_CAVE_B1F,                             18, 10 ; 38
@@ -118,7 +118,7 @@ MAP_NONE   EQU 0
 	mapgroup DRAGONS_DEN_B1F,                            18, 20 ; 81
 	mapgroup DRAGON_SHRINE,                               5,  5 ; 82
 	mapgroup TOHJO_FALLS,                                 9, 15 ; 83
-	mapgroup DIGLETTS_CAVE,                              18, 10 ; 84
+	mapgroup SYLVEONS_CAVE,                              18, 10 ; 84
 	mapgroup MOUNT_MOON,                                  9, 15 ; 85
 	mapgroup UNDERGROUND,                                14,  3 ; 86
 	mapgroup ROCK_TUNNEL_1F,                             18, 15 ; 87
@@ -260,7 +260,7 @@ MAP_NONE   EQU 0
 	mapgroup POKEMON_FAN_CLUB,                            4,  5 ;  7
 	mapgroup VERMILION_MAGNET_TRAIN_SPEECH_HOUSE,         4,  4 ;  8
 	mapgroup VERMILION_MART,                              4,  6 ;  9
-	mapgroup VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE,  4,  4 ; 10
+	mapgroup VERMILION_HOUSE_SYLVEONS_CAVE_SPEECH_HOUSE,  4,  4 ; 10
 	mapgroup VERMILION_GYM,                               9,  5 ; 11
 	mapgroup ROUTE_6_SAFFRON_GATE,                        4,  5 ; 12
 	mapgroup ROUTE_6_UNDERGROUND_ENTRANCE,                4,  4 ; 13

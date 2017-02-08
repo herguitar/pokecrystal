@@ -1,4 +1,4 @@
-	dw SNORLAX ; 143
+	dw CHANDELURE ; 143
 
 	db  60,  55,  90,  80, 145,  90
 	;   hp  atk  def  spd  sat  sdf

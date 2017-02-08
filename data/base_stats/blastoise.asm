@@ -1,4 +1,4 @@
-	dw BLASTOISE ; 009
+	dw DURANT ; 009
 
 	db  58, 109, 112, 109,  48,  48
 	;   hp  atk  def  spd  sat  sdf

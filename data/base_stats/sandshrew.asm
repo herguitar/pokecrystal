@@ -1,4 +1,4 @@
-	dw SANDSHREW ; 027
+	dw SNORUNT ; 027
 
 	db  50,  50,  50,  50,  50,  50
 	;   hp  atk  def  spd  sat  sdf
