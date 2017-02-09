@@ -5510,6 +5510,64 @@ BattleCommand_ParalyzeTarget: ; 36165
 
 ; 361ac
 
+;from Rangi
+;BattleCommand_BulkUp:
+;	ld b, ATTACK
+;	ld c, DEFENSE
+;	jp BattleCommand_DoubleUp
+;BattleCommand_CalmMind:
+;	ld b, SP_ATTACK
+;	ld c, SP_DEFENSE
+;	jp BattleCommand_DoubleUp
+;BattleCommand_Growth:
+;	ld b, ATTACK
+;	ld c, SP_ATTACK
+;	call GetWeatherAfterCloudNine
+;	cp WEATHER_SUN
+;	jp nz, BattleCommand_DoubleUp
+;	ld b, $10 | ATTACK
+;	ld c, $10 | SP_ATTACK
+;	jp BattleCommand_DoubleUp
+;BattleCommand_DragonDance:
+;	ld b, ATTACK
+;	ld c, SPEED
+;	jp BattleCommand_DoubleUp
+;BattleCommand_HoneClaws:
+;	ld b, ATTACK
+;	ld c, ACCURACY
+;BattleCommand_DoubleUp:
+;; stats to raise are in bc
+;	push bc ; StatUp clobbers c (via CheckIfStatCanBeRaised), which we want to retain
+;	call ResetMiss
+;	call BattleCommand_StatUp
+;	ld a, [FailedMessage]
+;	ld d, a ; note for 2nd stat
+;	ld e, 0	; track if we've shown animation
+;	and a
+;	call z, .msg_animate
+;	pop bc
+;	ld b, c
+;	call ResetMiss
+;	call BattleCommand_StatUp
+;	ld a, [FailedMessage]
+;	and a
+;	jr z, .msg_animate
+;	and d ; if this result in a being nonzero, we want to give a failure message
+;	ret z
+;	ld b, MULTIPLE_STATS + 1
+;	call GetStatName
+;	call AnimateFailedMove
+;	ld hl, WontRiseAnymoreText
+;	jp StdBattleTextBox
+;.msg_animate
+;	ld a, e
+;	and a
+;	jp nz, BattleCommand_StatUpMessage
+;	ld a, 1
+;	ld [wKickCounter], a
+;	call AnimateCurrentMove
+;	jp BattleCommand_StatUpMessage
+
 
 BattleCommand_AttackUp: ; 361ac
 ; attackup
@@ -8771,10 +8829,11 @@ INCLUDE "battle/effects/sandstorm.asm"
 
 INCLUDE "battle/effects/rollout.asm"
 
+INCLUDE "battle/effects/quiverdance.asm"
 
-BattleCommand5d: ; 37791
+;BattleCommand5d: ; 37791
 ; unused
-	ret
+;	ret
 
 ; 37792
 

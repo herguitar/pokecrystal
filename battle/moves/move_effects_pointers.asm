@@ -35,13 +35,13 @@
 	dw PayDay
 	dw LightScreen
 	dw TriAttack
-	dw NormalHit
+	dw AnchorShot
 	dw OHKOHit
 	dw RazorWind
 	dw SuperFang
 	dw StaticDamage
 	dw Bind
-	dw NormalHit
+	dw QuiverDance
 	dw MultiHit
 	dw NormalHit
 	dw Mist

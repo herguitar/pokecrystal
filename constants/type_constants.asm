@@ -20,4 +20,5 @@ PHYSICAL EQU const_value
 	const DARK
 	const FAIRY
 	const CURSE_T
+	const FREEZEDRY
 TYPES_END EQU const_value

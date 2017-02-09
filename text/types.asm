@@ -121,6 +121,7 @@ TypeNames: ; 5097b
 	dw Dark
 	dw Fairy
 	dw CurseType
+	dw FreezeDry
 
 Normal:    db "NORMAL@"
 Fighting:  db "FIGHTING@"
@@ -140,6 +141,7 @@ Ghost:     db "GHOST@"
 Steel:     db "STEEL@"
 Dragon:    db "DRAGON@"
 Dark:      db "DARK@"
-Fairy:      db "FAIRY@"
+Fairy:     db "FAIRY@"
+FreezeDry: db "ICE@"
 
 ; 50a28

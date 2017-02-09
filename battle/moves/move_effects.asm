@@ -2237,3 +2237,33 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+AnchorShot:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	hittarget
+	failuretext
+	checkfaint
+	criticaltext
+	supereffectivetext
+	checkdestinybond
+	buildopponentrage
+	kingsrock
+	arenatrap
+	endmove
+
+QuiverDance:
+	checkobedience
+	usedmovetext
+	doturn
+	quiverdance
+	endmove
+
+
