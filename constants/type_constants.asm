@@ -21,4 +21,5 @@ PHYSICAL EQU const_value
 	const FAIRY
 	const CURSE_T
 	const FREEZEDRY
+	const FLYPRESS
 TYPES_END EQU const_value

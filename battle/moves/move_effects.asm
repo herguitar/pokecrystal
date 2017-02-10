@@ -835,6 +835,29 @@ AttackUpHit:
 	statupmessage
 	endmove
 
+;FieryDance:
+SpecialAttackUpHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	hittarget
+	failuretext
+	checkfaint
+	criticaltext
+	supereffectivetext
+	checkdestinybond
+	buildopponentrage
+	specialattackup
+	statupmessage
+	endmove
+
 Ancientpower:
 AllUpHit:
 	checkobedience
@@ -1644,6 +1667,29 @@ FlameWheel:
 	burntarget
 	endmove
 
+FlareBlitz:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	hittarget
+	failuretext
+	checkfaint
+	criticaltext
+	supereffectivetext
+	defrost
+	recoil
+	checkdestinybond
+	buildopponentrage
+	burntarget
+	endmove
+
 Curse:
 	checkobedience
 	usedmovetext
@@ -2191,6 +2237,28 @@ Thunder:
 	paralyzetarget
 	endmove
 
+Hurricane:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	thunderaccuracy
+	checkhit
+	effectchance
+	stab
+	damagevariation
+	hittarget
+	failuretext
+	checkfaint
+	criticaltext
+	supereffectivetext
+	checkdestinybond
+	buildopponentrage
+	confusetarget
+	endmove
+
 Teleport:
 	checkobedience
 	usedmovetext
@@ -2207,7 +2275,7 @@ BeatUp:
 	lowersub
 	checkhit
 	critical
-	beatup
+;	beatup		;Had to remove this for space but cba to deal with the whole thing.
 	damagecalc
 	damagevariation
 	clearmissdamage
@@ -2266,4 +2334,39 @@ QuiverDance:
 	quiverdance
 	endmove
 
+SpeedUpHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	hittarget
+	failuretext
+	checkfaint
+	criticaltext
+	supereffectivetext
+	checkdestinybond
+	buildopponentrage
+	speedup
+	statupmessage
+	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	dragondance
+	endmove
+
+DefendOrder:
+	checkobedience
+	usedmovetext
+	doturn
+	defendorder
+	endmove
 

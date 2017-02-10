@@ -104,7 +104,7 @@
 	db "DOUBLE TEAM@"
 	db "RECOVER@"
 	db "HARDEN@"
-	db "MINIMIZE@"
+	db "FLYING PRESS@"		;"MINIMIZE@"			
 	db "SMOKESCREEN@"
 	db "CONFUSE RAY@"
 	db "PLAY ROUGH@"		;"WITHDRAW@"

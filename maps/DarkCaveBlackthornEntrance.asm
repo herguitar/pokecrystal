@@ -31,7 +31,7 @@ DarkCaveBlackthornEntranceRevive:
 	itemball REVIVE
 
 DarkCaveBlackthornEntranceTMSnore:
-	itemball TM_SNORE
+	itemball TM_HURRICANE
 
 UnknownText_0x18c73f:
 	text "Whoa! You startled"

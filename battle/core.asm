@@ -1458,7 +1458,7 @@ HandleMysteryberry: ; 3c93c
 .restore
 	; lousy hack
 	ld a, [hl]
-	cp SKETCH
+	cp SCALD	;Sketch is gone.
 	ld b, 1
 	jr z, .sketch
 	ld b, 5

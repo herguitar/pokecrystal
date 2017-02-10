@@ -76,7 +76,7 @@
 	dw SkyAttack
 	dw ConfuseHit
 	dw Twineedle
-	dw NormalHit
+	dw SpecialAttackUpHit
 	dw Substitute
 	dw HyperBeam
 	dw Rage
@@ -108,7 +108,7 @@
 	dw Nightmare
 	dw FlameWheel
 	dw Curse
-	dw NormalHit
+	dw Hurricane
 	dw Protect
 	dw Spikes
 	dw Foresight
@@ -128,8 +128,8 @@
 	dw BatonPass
 	dw Pursuit
 	dw RapidSpin
-	dw NormalHit
-	dw NormalHit
+	dw FlareBlitz
+	dw SpeedUpHit
 	dw MorningSun
 	dw Synthesis
 	dw Moonlight
@@ -155,3 +155,5 @@
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	dw DragonDance
+	dw DefendOrder

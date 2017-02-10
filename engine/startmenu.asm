@@ -716,7 +716,6 @@ PokemonActionSubmenu: ; 12a88
 	dbw MONMENU_WHIRLPOOL,  MonMenu_Whirlpool ; Whirlpool
 	dbw MONMENU_DIG,        MonMenu_Dig ; Dig
 	dbw MONMENU_TELEPORT,   MonMenu_Teleport ; Teleport
-	dbw MONMENU_SOFTBOILED, MonMenu_Softboiled_MilkDrink ; Softboiled
 	dbw MONMENU_MILKDRINK,  MonMenu_Softboiled_MilkDrink ; MilkDrink
 	dbw MONMENU_HEADBUTT,   MonMenu_Headbutt ; Headbutt
 	dbw MONMENU_WATERFALL,  MonMenu_Waterfall ; Waterfall

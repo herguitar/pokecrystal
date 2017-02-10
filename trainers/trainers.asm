@@ -229,7 +229,7 @@ ChuckGroup:
 
 	db 30, POLIWRATH
 		db HYPNOSIS
-		db MIND_READER
+		db DEFEND_ORDER
 		db SURF
 		db DYNAMICPUNCH
 
@@ -741,14 +741,14 @@ WillGroup:
 
 	db 41, BRONZONG
 		db DOUBLESLAP
-		db LOVELY_KISS
+		db DARK_PULSE
 		db ICE_PUNCH
 		db PSYCHIC_M
 
 	db 41, HONCHKROW
 		db REFLECT
 		db LEECH_SEED
-		db EGG_BOMB
+		db ANCHOR_SHOT
 		db PSYCHIC_M
 
 	db 41, SLOWBRO
@@ -828,7 +828,7 @@ BrunoGroup:
 		db PURSUIT
 		db QUICK_ATTACK
 		db DIG
-		db DETECT
+		db ZEN_HEADBUTT
 
 	db 42, KROOKODILE
 		db SWAGGER
@@ -843,7 +843,7 @@ BrunoGroup:
 		db MACH_PUNCH
 
 	db 43, ONIX
-		db BIND
+		db AQUA_JET
 		db EARTHQUAKE
 		db SANDSTORM
 		db ROCK_SLIDE
@@ -918,7 +918,7 @@ KogaGroup:
 
 	db 40, SALAZZLE
 		db DOUBLE_TEAM
-		db SPIDER_WEB
+		db ICICLE_CRASH
 		db BATON_PASS
 		db GIGA_DRAIN
 
@@ -935,8 +935,8 @@ KogaGroup:
 		db SPIKES
 
 	db 42, TYNAMO
-		db MINIMIZE
-		db ACID_ARMOR
+		db FLYING_PRESS
+		db MOONBLAST
 		db SLUDGE_BOMB
 		db TOXIC
 
@@ -1024,7 +1024,7 @@ BrockGroup:
 		db FURY_ATTACK
 		db SCARY_FACE
 		db EARTHQUAKE
-		db HORN_DRILL
+		db BUG_BUZZ
 
 	db 42, YAMASK
 		db BITE
@@ -1033,9 +1033,9 @@ BrockGroup:
 		db SPIKE_CANNON
 
 	db 44, ONIX
-		db BIND
+		db AQUA_JET
 		db ROCK_SLIDE
-		db BIDE
+		db AERIAL_ACE
 		db SANDSTORM
 
 	db 42, LAMPENT
@@ -1219,14 +1219,14 @@ ErikaGroup:
 
 	db 42, TANGELA
 		db VINE_WHIP
-		db BIND
+		db AQUA_JET
 		db GIGA_DRAIN
 		db SLEEP_POWDER
 
 	db 41, JUMPLUFF
 		db MEGA_DRAIN
 		db LEECH_SEED
-		db COTTON_SPORE
+		db X_SCISSOR
 		db GIGA_DRAIN
 
 	db 46, VICTREEBEL
@@ -1343,7 +1343,7 @@ YoungsterGroup:
 	db 21, ARAQUANID
 		db TAIL_WHIP
 		db QUICK_ATTACK
-		db HYPER_FANG
+		db FLAME_CHARGE
 		db SCARY_FACE
 
 	db $ff ; end
@@ -1405,7 +1405,7 @@ YoungsterGroup:
 	db 30, ARAQUANID
 		db TAIL_WHIP
 		db QUICK_ATTACK
-		db HYPER_FANG
+		db FLAME_CHARGE
 		db PURSUIT
 
 	db $ff ; end
@@ -1421,7 +1421,7 @@ YoungsterGroup:
 	db 37, ARAQUANID
 		db HYPER_BEAM
 		db QUICK_ATTACK
-		db HYPER_FANG
+		db FLAME_CHARGE
 		db PURSUIT
 
 	db $ff ; end
@@ -1725,7 +1725,7 @@ SchoolboyGroup:
 	db 32, TANGELA
 		db POISONPOWDER
 		db VINE_WHIP
-		db BIND
+		db AQUA_JET
 		db MEGA_DRAIN
 
 	db 32, MUDKIP
@@ -1986,7 +1986,7 @@ BirdKeeperGroup:
 
 	db 40, MIENSHAO
 		db FURY_ATTACK
-		db DETECT
+		db ZEN_HEADBUTT
 		db FLY
 		db SLASH
 
@@ -2020,7 +2020,7 @@ BirdKeeperGroup:
 
 	db 38, PIDGEOT
 		db SWIFT
-		db DETECT
+		db ZEN_HEADBUTT
 		db STEEL_WING
 		db FLY
 
@@ -2245,7 +2245,7 @@ LassGroup:
 		db TACKLE
 		db THUNDERSHOCK
 		db THUNDER_WAVE
-		db COTTON_SPORE
+		db X_SCISSOR
 
 	db $ff ; end
 
@@ -2267,7 +2267,7 @@ LassGroup:
 		db TACKLE
 		db THUNDERPUNCH
 		db THUNDER_WAVE
-		db COTTON_SPORE
+		db X_SCISSOR
 
 	db $ff ; end
 
@@ -2283,7 +2283,7 @@ LassGroup:
 		db SWIFT
 		db THUNDERPUNCH
 		db THUNDER_WAVE
-		db COTTON_SPORE
+		db X_SCISSOR
 
 	db 36, CROAGUNK
 		db DISABLE
@@ -2360,7 +2360,7 @@ CooltrainerMGroup:
 		db SCARY_FACE
 
 	db 26, COMBEE
-		db WITHDRAW
+		db PLAY_ROUGH
 		db WATER_GUN
 		db BITE
 		db CURSE
@@ -2439,7 +2439,7 @@ CooltrainerMGroup:
 	db 35, CORPHISH
 		db BUBBLEBEAM
 		db STOMP
-		db GUILLOTINE
+		db BRAVE_BIRD
 		db PROTECT
 
 	db 35, FLAREON
@@ -2467,7 +2467,7 @@ CooltrainerMGroup:
 	db 39, CORPHISH, KINGS_ROCK
 		db SURF
 		db STOMP
-		db GUILLOTINE
+		db BRAVE_BIRD
 		db BLIZZARD
 
 	db 39, FLAREON, NO_ITEM
@@ -2539,7 +2539,7 @@ CooltrainerMGroup:
 	db 32, CORPHISH
 		db BUBBLEBEAM
 		db STOMP
-		db GUILLOTINE
+		db BRAVE_BIRD
 		db PROTECT
 
 	db 32, FLAREON
@@ -3087,7 +3087,7 @@ BeautyGroup:
 		db SCRATCH
 		db GROWL
 		db BITE
-		db PAY_DAY
+		db EARTH_POWER
 
 	db 16, MEDITITE
 		db SCRATCH
@@ -3452,8 +3452,8 @@ PokemaniacGroup:
 	db 41, METAGROSS
 		db ROLLOUT
 		db ATTRACT
-		db EGG_BOMB
-		db SOFTBOILED
+		db ANCHOR_SHOT
+		db FLARE_BLITZ
 
 	db $ff ; end
 
@@ -4221,7 +4221,7 @@ BugCatcherGroup:
 	db 25, BEEDRILL
 		db FURY_ATTACK
 		db FOCUS_ENERGY
-		db TWINEEDLE
+		db ATTACK_ORDER
 		db RAGE
 
 	db 24, BUTTERFREE
@@ -4255,7 +4255,7 @@ BugCatcherGroup:
 	db 32, BEEDRILL
 		db FURY_ATTACK
 		db PURSUIT
-		db TWINEEDLE
+		db ATTACK_ORDER
 		db DOUBLE_TEAM
 
 	db 34, BUTTERFREE
@@ -4638,7 +4638,7 @@ FisherGroup:
 
 	db 35, BRUXISH
 		db TOXIC
-		db MINIMIZE
+		db FLYING_PRESS
 		db SURF
 		db PIN_MISSILE
 
@@ -5251,13 +5251,13 @@ SailorGroup:
 	db 18, SABLEYE
 		db BUBBLE
 		db LEER
-		db VICEGRIP
+		db SHADOW_CLAW
 		db HARDEN
 
 	db 20, SABLEYE
 		db BUBBLEBEAM
 		db LEER
-		db VICEGRIP
+		db SHADOW_CLAW
 		db HARDEN
 
 	db $ff ; end
@@ -6635,7 +6635,7 @@ BlackbeltGroup:
 
 	db 27, KROOKODILE
 		db DOUBLE_KICK
-		db MEDITATE
+		db LEAF_BLADE
 		db JUMP_KICK
 		db FOCUS_ENERGY
 
@@ -6650,7 +6650,7 @@ BlackbeltGroup:
 	; party
 
 	db 33, ONIX
-		db BIND
+		db AQUA_JET
 		db ROCK_THROW
 		db TOXIC
 		db DIG
@@ -6983,7 +6983,7 @@ PsychicGroup:
 
 	db 15, KADABRA
 		db TELEPORT
-		db KINESIS
+		db BULLET_PUNCH
 		db CONFUSION
 		db 0
 
@@ -7261,7 +7261,7 @@ PicnickerGroup:
 		db ENCORE
 		db SING
 		db DOUBLESLAP
-		db MINIMIZE
+		db FLYING_PRESS
 
 	db $ff ; end
 
@@ -7276,7 +7276,7 @@ PicnickerGroup:
 	db 37, CLEFAIRY
 		db ENCORE
 		db DOUBLESLAP
-		db MINIMIZE
+		db FLYING_PRESS
 		db METRONOME
 
 	db $ff ; end
@@ -7316,7 +7316,7 @@ PicnickerGroup:
 		db ENCORE
 		db SING
 		db DOUBLESLAP
-		db MINIMIZE
+		db FLYING_PRESS
 
 	db $ff ; end
 
@@ -7414,13 +7414,13 @@ PicnickerGroup:
 		db STUN_SPORE
 		db SUNNY_DAY
 		db LEECH_SEED
-		db COTTON_SPORE
+		db X_SCISSOR
 
 	db 33, JUMPLUFF
 		db SUNNY_DAY
 		db SLEEP_POWDER
 		db LEECH_SEED
-		db COTTON_SPORE
+		db X_SCISSOR
 
 	db 38, LARVESTA
 		db SOLARBEAM
@@ -7442,7 +7442,7 @@ PicnickerGroup:
 		db METRONOME
 		db ENCORE
 		db MOONLIGHT
-		db MINIMIZE
+		db FLYING_PRESS
 
 	db $ff ; end
 
@@ -8609,7 +8609,7 @@ RedGroup:
 
 	db 75, CHANDELURE
 		db AMNESIA
-		db SNORE
+		db HURRICANE
 		db REST
 		db BODY_SLAM
 
@@ -8674,7 +8674,7 @@ BlueGroup:
 	db 58, HONCHKROW
 		db SUNNY_DAY
 		db LEECH_SEED
-		db EGG_BOMB
+		db ANCHOR_SHOT
 		db SOLARBEAM
 
 	db 58, ARCANINE

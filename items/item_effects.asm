@@ -2603,10 +2603,6 @@ Mysteryberry: ; f5bf
 	cp PP_UP
 	jp nz, Not_PP_Up
 
-	ld a, [hl]
-	cp SKETCH
-	jr z, .CantUsePPUpOnSketch
-
 	ld bc, $0015
 	add hl, bc
 	ld a, [hl]

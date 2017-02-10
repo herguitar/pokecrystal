@@ -122,6 +122,7 @@ TypeNames: ; 5097b
 	dw Fairy
 	dw CurseType
 	dw FreezeDry
+	dw FlyPress
 
 Normal:    db "NORMAL@"
 Fighting:  db "FIGHTING@"
@@ -143,5 +144,6 @@ Dragon:    db "DRAGON@"
 Dark:      db "DARK@"
 Fairy:     db "FAIRY@"
 FreezeDry: db "ICE@"
+FlyPress:  db "FLY/FIGHT@"
 
 ; 50a28

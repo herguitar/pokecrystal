@@ -60,7 +60,7 @@ BattleCommandPointers: ; 3fd28
 	dw BattleCommand_Charge ; 36b4d
 	dw BattleCommand_CheckCharge ; 36b3a
 	dw BattleCommand_TrapTarget ; 36c2d
-	dw BattleCommand3c ; 36c2c
+	dw BattleCommand_DefendOrder ; 36c2c
 	dw BattleCommand_Rampage ; 36751
 	dw BattleCommand_CheckRampage ; 3671a
 	dw BattleCommand_ConstantDamage ; 35726
@@ -161,7 +161,7 @@ BattleCommandPointers: ; 3fd28
 	dw BattleCommand_SkipSunCharge ; 37d02
 	dw BattleCommand_ThunderAccuracy ; 37d94
 	dw BattleCommand_Teleport ; 36778
-	dw BattleCommand_BeatUp ; 35461
+;	dw BattleCommand_BeatUp ; 35461
 	dw BattleCommand_RageDamage ; 3527b
 	dw BattleCommand_ResetTypeMatchup ; 34833
 	dw BattleCommand_AllStatsUp ; 36500
@@ -176,4 +176,6 @@ BattleCommandPointers: ; 3fd28
 	dw BattleCommand_SuperEffectiveLoopText ; 351a5
 	dw BattleCommand_StartLoop ; 35197
 	dw BattleCommand_Curl ; 365a7
+	dw BattleCommand_DragonDance
+;	dw BattleCommand_FreezeDrySTAB
 ; 3fe86
