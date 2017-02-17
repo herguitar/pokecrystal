@@ -873,6 +873,7 @@ CompareMovePriority: ; 3c5b4
 
 GetMovePriority: ; 3c5c5
 ; Return the priority (0-3) of move a.
+; Priority is 8-bit so can be increased without worries to 7 values.
 
 	ld b, a
 
@@ -900,9 +901,13 @@ GetMovePriority: ; 3c5c5
 ; 3c5df
 
 MoveEffectPriorities: ; 3c5df
-	db EFFECT_PROTECT,      3
-	db EFFECT_ENDURE,       3
+	db EFFECT_PROTECT,      5
+	db EFFECT_ENDURE,       5
+	db EFFECT_FAKE_OUT,	4	
+;	db EFFECT_FEINT,	3	;If the move ever gets added.
+	db EFFECT_EXTREMESPEED,	3
 	db EFFECT_PRIORITY_HIT, 2
+	db EFFECT_TRANSFORM,	2	;Make up for lack of imposter.
 	db EFFECT_WHIRLWIND,    0
 	db EFFECT_COUNTER,      0
 	db EFFECT_MIRROR_COAT,  0

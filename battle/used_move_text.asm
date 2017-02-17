@@ -221,7 +221,7 @@ MoveGrammar: ; 105e7a
 ; 1
 	db RECOVER
 	db TELEPORT
-	db AERIAL_ACE
+	db AIR_SLASH
 	db SELFDESTRUCT
 	db AMNESIA
 	db FLAIL
@@ -245,7 +245,7 @@ MoveGrammar: ; 105e7a
 	db WING_ATTACK
 	db FLY
 	db AQUA_JET
-	db SLAM
+	db POISON_JAB
 	db HORN_ATTACK
 	db WRAP
 	db THRASH

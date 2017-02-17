@@ -4,7 +4,7 @@
 	const POUND        ; $01
 	const KARATE_CHOP  ; $02
 	const DOUBLESLAP   ; $03
-	const COMET_PUNCH  ; $04
+	const FAKE_OUT  ; $04
 	const DRAGON_PULSE ; $05
 	const EARTH_POWER  ; $06
 	const FIRE_PUNCH   ; $07
@@ -21,7 +21,7 @@
 	const WHIRLWIND    ; $12
 	const FLY          ; $13
 	const AQUA_JET         ; $14
-	const SLAM         ; $15
+	const POISON_JAB         ; $15
 	const VINE_WHIP    ; $16
 	const STOMP        ; $17
 	const DOUBLE_KICK  ; $18
@@ -117,14 +117,14 @@
 	const HAZE         ; $72
 	const REFLECT      ; $73
 	const FOCUS_ENERGY ; $74
-	const AERIAL_ACE         ; $75
+	const AIR_SLASH         ; $75
 	const METRONOME    ; $76
 	const MIRROR_MOVE  ; $77
 	const SELFDESTRUCT ; $78
 	const ANCHOR_SHOT     ; $79
 	const LICK         ; $7a
 	const SMOG         ; $7b
-	const SLUDGE       ; $7c
+	const DRAGON_DANCE       ; $7c
 	const ASTONISH    ; $7d
 	const FIRE_BLAST   ; $7e
 	const WATERFALL    ; $7f
@@ -178,7 +178,7 @@
 	const FLAIL        ; $af
 	const CONVERSION2  ; $b0
 	const AEROBLAST    ; $b1
-	const X_SCISSOR ; $b2
+	const BUG_BITE ; $b2
 	const REVERSAL     ; $b3
 	const SPITE        ; $b4
 	const POWDER_SNOW  ; $b5

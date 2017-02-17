@@ -252,19 +252,19 @@ ClairGroup:
 	db 37, DRAGONAIR
 		db THUNDER_WAVE
 		db SURF
-		db SLAM
+		db BODY_SLAM
 		db DRAGONBREATH
 
 	db 37, DRAGONAIR
 		db THUNDER_WAVE
 		db THUNDERBOLT
-		db SLAM
+		db BODY_SLAM
 		db DRAGONBREATH
 
 	db 37, DRAGONAIR
 		db THUNDER_WAVE
 		db ICE_BEAM
-		db SLAM
+		db BODY_SLAM
 		db DRAGONBREATH
 
 	db 40, KINGDRA
@@ -1035,7 +1035,7 @@ BrockGroup:
 	db 44, ONIX
 		db AQUA_JET
 		db ROCK_SLIDE
-		db AERIAL_ACE
+		db AIR_SLASH
 		db SANDSTORM
 
 	db 42, LAMPENT
@@ -1226,7 +1226,7 @@ ErikaGroup:
 	db 41, JUMPLUFF
 		db MEGA_DRAIN
 		db LEECH_SEED
-		db X_SCISSOR
+		db BUG_BITE
 		db GIGA_DRAIN
 
 	db 46, VICTREEBEL
@@ -1736,7 +1736,7 @@ SchoolboyGroup:
 
 	db 35, QUAGSIRE
 		db TAIL_WHIP
-		db SLAM
+		db BODY_SLAM
 		db AMNESIA
 		db EARTHQUAKE
 
@@ -2245,7 +2245,7 @@ LassGroup:
 		db TACKLE
 		db THUNDERSHOCK
 		db THUNDER_WAVE
-		db X_SCISSOR
+		db BUG_BITE
 
 	db $ff ; end
 
@@ -2267,7 +2267,7 @@ LassGroup:
 		db TACKLE
 		db THUNDERPUNCH
 		db THUNDER_WAVE
-		db X_SCISSOR
+		db BUG_BITE
 
 	db $ff ; end
 
@@ -2283,7 +2283,7 @@ LassGroup:
 		db SWIFT
 		db THUNDERPUNCH
 		db THUNDER_WAVE
-		db X_SCISSOR
+		db BUG_BITE
 
 	db 36, CROAGUNK
 		db DISABLE
@@ -2566,7 +2566,7 @@ CooltrainerMGroup:
 
 	db 31, QUAGSIRE
 		db WATER_GUN
-		db SLAM
+		db BODY_SLAM
 		db AMNESIA
 		db EARTHQUAKE
 
@@ -2700,7 +2700,7 @@ CooltrainerMGroup:
 		db WRAP
 		db SURF
 		db DRAGON_RAGE
-		db SLAM
+		db BODY_SLAM
 
 	db $ff ; end
 
@@ -6150,7 +6150,7 @@ HikerGroup:
 		db DIG
 		db IRON_TAIL
 		db SANDSTORM
-		db SLAM
+		db BODY_SLAM
 
 	db $ff ; end
 
@@ -6394,7 +6394,7 @@ BurglarGroup:
 	db 24, BELDUM
 		db TACKLE
 		db SMOG
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db $ff ; end
@@ -6684,7 +6684,7 @@ BlackbeltGroup:
 	; party
 
 	db 27, VULLABY
-		db COMET_PUNCH
+		db SCALD
 		db THUNDERPUNCH
 		db ICE_PUNCH
 		db FIRE_PUNCH
@@ -6784,7 +6784,7 @@ ExecutiveMGroup:
 
 	db 33, BELDUM
 		db TACKLE
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 		db HAZE
 
@@ -6823,37 +6823,37 @@ ExecutiveMGroup:
 	db 30, BELDUM
 		db TACKLE
 		db SELFDESTRUCT
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db 30, BELDUM
 		db TACKLE
 		db SELFDESTRUCT
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db 30, BELDUM
 		db TACKLE
 		db SELFDESTRUCT
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db 32, METANG
 		db TACKLE
 		db EXPLOSION
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db 30, BELDUM
 		db TACKLE
 		db SELFDESTRUCT
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db 30, BELDUM
 		db TACKLE
 		db SMOG
-		db SLUDGE
+		db SLUDGE_BOMB
 		db SMOKESCREEN
 
 	db $ff ; end
@@ -7414,13 +7414,13 @@ PicnickerGroup:
 		db STUN_SPORE
 		db SUNNY_DAY
 		db LEECH_SEED
-		db X_SCISSOR
+		db BUG_BITE
 
 	db 33, JUMPLUFF
 		db SUNNY_DAY
 		db SLEEP_POWDER
 		db LEECH_SEED
-		db X_SCISSOR
+		db BUG_BITE
 
 	db 38, LARVESTA
 		db SOLARBEAM

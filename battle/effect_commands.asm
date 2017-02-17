@@ -6599,7 +6599,7 @@ BattleCommand_StoreEnergy: ; 36671
 
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVarAddr
-	ld a, AERIAL_ACE
+	ld a, AIR_SLASH		;was bide	
 	ld [hl], a
 
 	ld b, unleashenergy_command
@@ -7207,7 +7207,7 @@ BattleCommand_EndLoop: ; 369b6
 ; 36a82
 
 
-BattleCommand_FakeOut: ; 36a82
+BattleCommand_FakeOut: ; 36a82 ;As with flinch target but fails on a substitute.
 	ld a, [AttackMissed]
 	and a
 	ret nz

@@ -179,7 +179,7 @@
 	db "MAREEP@@@@"
 	db "FLAAFFY@@@"
 	db "AMPHAROS@@"
-	db "GARBADOR@@"		;"BELLOSSOM@"
+	db "GARBODOR@@"		;"BELLOSSOM@"
 	db "MAREANIE@@"		;"MARILL@@@@"
 	db "TOXAPEX@@@"		;"AZUMARILL@"
 	db "SUDOWOODO@"

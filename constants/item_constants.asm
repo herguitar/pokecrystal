@@ -235,7 +235,7 @@
 	add_tm DEFENSE_CURL ; $E8
 	add_tm THUNDERPUNCH ; $E9
 	add_tm DREAM_EATER  ; $EA
-	add_tm ZEN_HEADBUTT       ; $EB
+	add_tm ZEN_HEADBUTT ; $EB
 	add_tm REST         ; $EC
 	add_tm ATTRACT      ; $ED
 	add_tm THIEF        ; $EE

@@ -323,6 +323,8 @@ SUBSTATUS_CURLED       EQU 0
 	const EFFECT_DEFENSE_CURL
 	const EFFECT_DRAGON_DANCE
 	const EFFECT_DEFEND_ORDER
+	const EFFECT_BURN
+	const EFFECT_EXTREMESPEED
 
 ; Battle vars used in home/battle.asm
 	const_def

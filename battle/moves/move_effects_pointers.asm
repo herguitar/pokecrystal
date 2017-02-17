@@ -139,7 +139,7 @@
 	dw SteelWing
 	dw MetalClaw
 	dw Ancientpower
-	dw FakeOut
+	dw FlinchHit
 	dw BellyDrum
 	dw PsychUp
 	dw MirrorCoat
@@ -157,3 +157,6 @@
 	dw DefenseCurl
 	dw DragonDance
 	dw DefendOrder
+	dw DoBurn
+	dw NormalHit
+	dw FlinchHit

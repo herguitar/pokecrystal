@@ -2517,7 +2517,7 @@ BattleTowerMons4:
 
 	db TYNAMO
 	db QUICK_CLAW
-	db SCREECH, TOXIC, SLUDGE, HARDEN
+	db SCREECH, TOXIC, SLUDGE_BOMB, HARDEN
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp

@@ -16,13 +16,15 @@ INCLUDE "data/egg_move_pointers.asm"
 EggMoves::
 
 BulbasaurEggMoves:
-	db LIGHT_SCREEN
-	db SKULL_BASH
-	db SAFEGUARD
+	db FORESIGHT
+	db PSYBEAM
+	db HYDRO_PUMP
+	db DEFEND_ORDER
+	db ENDURE
 if !_CRYSTAL
 	db CHARM
 endc
-	db RAZOR_WIND
+	db ICE_SHARD
 	db PETAL_DANCE
 	db $ff
 
@@ -32,7 +34,7 @@ CharmanderEggMoves:
 	db ROCK_SLIDE
 	db BITE
 	db OUTRAGE
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 SquirtleEggMoves:
@@ -72,9 +74,8 @@ SpearowEggMoves:
 
 EkansEggMoves:
 	db PURSUIT
-	db SLAM
 	db SPITE
-	db BEAT_UP
+	db NIGHT_SLASH
 if _CRYSTAL
 	db CRUNCH
 endc
@@ -97,7 +98,7 @@ NidoranFEggMoves:
 	db FOCUS_ENERGY
 	db CHARM
 	db COUNTER
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 NidoranMEggMoves:
@@ -107,7 +108,7 @@ NidoranMEggMoves:
 	db CONFUSION
 	db AMNESIA
 	db COUNTER
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 VulpixEggMoves:
@@ -160,7 +161,7 @@ DiglettEggMoves:
 	db SCREECH
 	db ANCIENTPOWER
 	db PURSUIT
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 MeowthEggMoves:
@@ -186,10 +187,10 @@ endc
 MankeyEggMoves:
 	db ROCK_SLIDE
 	db FORESIGHT
-	db MEDITATE
+	db LEAF_BLADE
 	db COUNTER
 	db REVERSAL
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 GrowlitheEggMoves:
@@ -205,7 +206,7 @@ PoliwagEggMoves:
 	db SPLASH
 	db BUBBLEBEAM
 	db HAZE
-	db MIND_READER
+	db DEFEND_ORDER
 	db $ff
 
 AbraEggMoves:
@@ -216,8 +217,8 @@ AbraEggMoves:
 
 MachopEggMoves:
 	db LIGHT_SCREEN
-	db MEDITATE
-	db ROLLING_KICK
+	db LEAF_BLADE
+	db DISARM_VOICE
 	db ENCORE
 	db $ff
 
@@ -238,7 +239,7 @@ TentacoolEggMoves:
 	db $ff
 
 GeodudeEggMoves:
-	db MEGA_PUNCH
+	db DRAGON_PULSE
 	db ROCK_SLIDE
 	db $ff
 
@@ -282,7 +283,6 @@ SeelEggMoves:
 	db PERISH_SONG
 	db DISABLE
 	db PECK
-	db SLAM
 	db ENCORE
 	db $ff
 
@@ -301,7 +301,7 @@ ShellderEggMoves:
 	db $ff
 
 GastlyEggMoves:
-	db PSYWAVE
+	db FLASH_CANNON
 	db PERISH_SONG
 	db HAZE
 	db $ff
@@ -321,7 +321,6 @@ KrabbyEggMoves:
 	db HAZE
 	db AMNESIA
 	db FLAIL
-	db SLAM
 	db $ff
 
 ExeggcuteEggMoves:
@@ -352,7 +351,7 @@ LickitungEggMoves:
 
 KoffingEggMoves:
 	db SCREECH
-	db PSYWAVE
+	db FLASH_CANNON
 	db PSYBEAM
 	db DESTINY_BOND
 	db PAIN_SPLIT
@@ -369,7 +368,7 @@ RhyhornEggMoves:
 	db $ff
 
 ChanseyEggMoves:
-	db PRESENT
+	db FIERY_DANCE
 	db METRONOME
 	db HEAL_BELL
 	db $ff
@@ -423,7 +422,7 @@ ScytherEggMoves:
 	db COUNTER
 	db SAFEGUARD
 	db BATON_PASS
-	db RAZOR_WIND
+	db ICE_SHARD
 	db REVERSAL
 	db LIGHT_SCREEN
 	db $ff
@@ -446,7 +445,6 @@ EeveeEggMoves:
 OmanyteEggMoves:
 	db BUBBLEBEAM
 	db AURORA_BEAM
-	db SLAM
 	db SUPERSONIC
 	db HAZE
 	db $ff
@@ -507,7 +505,7 @@ TotodileEggMoves:
 	db THRASH
 	db HYDRO_PUMP
 	db ANCIENTPOWER
-	db RAZOR_WIND
+	db ICE_SHARD
 	db ROCK_SLIDE
 	db $ff
 
@@ -526,13 +524,12 @@ HoothootEggMoves:
 	db WING_ATTACK
 	db WHIRLWIND
 if _CRYSTAL
-	db SKY_ATTACK
+	db IRON_HEAD
 endc
 	db $ff
 
 LedybaEggMoves:
 	db PSYBEAM
-	db BIDE
 	db LIGHT_SCREEN
 	db $ff
 
@@ -552,14 +549,13 @@ ChinchouEggMoves:
 
 PichuEggMoves:
 	db REVERSAL
-	db BIDE
-	db PRESENT
+	db FIERY_DANCE
 	db ENCORE
 	db DOUBLESLAP
 	db $ff
 
 CleffaEggMoves:
-	db PRESENT
+	db FIERY_DANCE
 	db METRONOME
 	db AMNESIA
 	db BELLY_DRUM
@@ -569,12 +565,12 @@ CleffaEggMoves:
 
 IgglybuffEggMoves:
 	db PERISH_SONG
-	db PRESENT
+	db FIERY_DANCE
 	db FAINT_ATTACK
 	db $ff
 
 TogepiEggMoves:
-	db PRESENT
+	db FIERY_DANCE
 	db MIRROR_MOVE
 	db PECK
 	db FORESIGHT
@@ -600,7 +596,7 @@ MareepEggMoves:
 
 MarillEggMoves:
 	db LIGHT_SCREEN
-	db PRESENT
+	db FIERY_DANCE
 	db AMNESIA
 	db FUTURE_SIGHT
 	db BELLY_DRUM
@@ -620,7 +616,7 @@ HoppipEggMoves:
 	db DOUBLE_EDGE
 	db REFLECT
 	db AMNESIA
-	db PAY_DAY
+	db EARTH_POWER
 	db $ff
 
 AipomEggMoves:
@@ -629,9 +625,8 @@ AipomEggMoves:
 	db PURSUIT
 	db AGILITY
 	db SPITE
-	db SLAM
 	db DOUBLESLAP
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 YanmaEggMoves:
@@ -653,7 +648,7 @@ MurkrowEggMoves:
 	db MIRROR_MOVE
 	db WING_ATTACK
 if _CRYSTAL
-	db SKY_ATTACK
+	db IRON_HEAD
 endc
 	db $ff
 
@@ -667,7 +662,7 @@ GirafarigEggMoves:
 	db AMNESIA
 	db FORESIGHT
 	db FUTURE_SIGHT
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 PinecoEggMoves:
@@ -678,7 +673,6 @@ PinecoEggMoves:
 	db $ff
 
 DunsparceEggMoves:
-	db BIDE
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE
@@ -688,7 +682,7 @@ DunsparceEggMoves:
 GligarEggMoves:
 	db METAL_CLAW
 	db WING_ATTACK
-	db RAZOR_WIND
+	db ICE_SHARD
 	db COUNTER
 	db $ff
 
@@ -696,7 +690,7 @@ SnubbullEggMoves:
 	db METRONOME
 	db FAINT_ATTACK
 	db REFLECT
-	db PRESENT
+	db FIERY_DANCE
 	db CRUNCH
 	db HEAL_BELL
 	db LICK
@@ -716,7 +710,6 @@ ShuckleEggMoves:
 
 HeracrossEggMoves:
 	db HARDEN
-	db BIDE
 	db FLAIL
 	db $ff
 
@@ -740,7 +733,7 @@ endc
 	db $ff
 
 SlugmaEggMoves:
-	db ACID_ARMOR
+	db MOONBLAST
 	db $ff
 
 SwinubEggMoves:
@@ -779,7 +772,6 @@ MantineEggMoves:
 	db TWISTER
 	db HYDRO_PUMP
 	db HAZE
-	db SLAM
 	db $ff
 
 SkarmoryEggMoves:
@@ -787,7 +779,7 @@ SkarmoryEggMoves:
 	db PURSUIT
 	db WHIRLWIND
 if _CRYSTAL
-	db SKY_ATTACK
+	db IRON_HEAD
 endc
 	db $ff
 
@@ -798,7 +790,7 @@ HoundourEggMoves:
 	db COUNTER
 	db SPITE
 	db REVERSAL
-	db BEAT_UP
+	db NIGHT_SLASH
 	db $ff
 
 PhanpyEggMoves:
@@ -822,21 +814,21 @@ TyrogueEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK
 	db MACH_PUNCH
-	db MIND_READER
+	db DEFEND_ORDER
 	db $ff
 
 SmoochumEggMoves:
 if !_CRYSTAL
-	db LOVELY_KISS
+	db DARK_PULSE
 endc
-	db MEDITATE
+	db LEAF_BLADE
 	db $ff
 
 ElekidEggMoves:
 	db KARATE_CHOP
 	db BARRIER
-	db ROLLING_KICK
-	db MEDITATE
+	db DISARM_VOICE
+	db LEAF_BLADE
 if _CRYSTAL
 	db CROSS_CHOP
 endc
@@ -844,7 +836,7 @@ endc
 
 MagbyEggMoves:
 	db KARATE_CHOP
-	db MEGA_PUNCH
+	db DRAGON_PULSE
 	db BARRIER
 	db SCREECH
 if _CRYSTAL
@@ -853,7 +845,7 @@ endc
 	db $ff
 
 MiltankEggMoves:
-	db PRESENT
+	db FIERY_DANCE
 	db REVERSAL
 	db SEISMIC_TOSS
 	db $ff

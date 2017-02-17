@@ -1227,6 +1227,16 @@ DoParalyze:
 	paralyze
 	endmove
 
+DoBurn:
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	stab
+	checksafeguard
+	burntarget
+	endmove
+
 SkyAttack:
 	checkcharge
 	checkobedience
