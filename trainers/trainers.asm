@@ -6636,7 +6636,7 @@ BlackbeltGroup:
 	db 27, KROOKODILE
 		db DOUBLE_KICK
 		db LEAF_BLADE
-		db JUMP_KICK
+		db HI_JUMP_KICK
 		db FOCUS_ENERGY
 
 	db $ff ; end

@@ -195,7 +195,7 @@
 	add_tm HEADBUTT     ; $C0
 	add_tm CURSE        ; $C1
 	add_tm ROLLOUT      ; $C2
-	const ITEM_C3       ; $C3
+	add_tm DRAGON_CLAW  ; $C3	;ITEM_C3
 	add_tm ROAR         ; $C4
 	add_tm TOXIC        ; $C5
 	add_tm ZAP_CANNON   ; $C6
@@ -204,14 +204,14 @@
 	add_tm HIDDEN_POWER ; $C9
 	add_tm SUNNY_DAY    ; $CA
 	add_tm SWEET_SCENT  ; $CB
-	add_tm HURRICANE        ; $CC
+	add_tm POWERUPPUNCH ; $CC	;HURRICANE
 	add_tm BLIZZARD     ; $CD
 	add_tm HYPER_BEAM   ; $CE
 	add_tm ICY_WIND     ; $CF
 	add_tm PROTECT      ; $D0
 	add_tm RAIN_DANCE   ; $D1
 	add_tm GIGA_DRAIN   ; $D2
-	add_tm ENDURE       ; $D3
+	add_tm DAZZLINGLEAM ; $D3	;ENDURE
 	add_tm FRUSTRATION  ; $D4
 	add_tm SOLARBEAM    ; $D5
 	add_tm IRON_TAIL    ; $D6
@@ -219,8 +219,8 @@
 	add_tm THUNDER      ; $D8
 	add_tm EARTHQUAKE   ; $D9
 	add_tm RETURN       ; $DA
-	add_tm DIG          ; $DB
-	const ITEM_DC       ; $DC
+	add_tm SWORDS_DANCE ; $DB	;DIG
+	add_tm POISON_JAB   ; $DC	;ITEM_DC
 	add_tm PSYCHIC      ; $DD
 	add_tm SHADOW_BALL  ; $DE
 	add_tm MUD_SLAP     ; $DF
@@ -232,17 +232,17 @@
 	add_tm SANDSTORM    ; $E5
 	add_tm FIRE_BLAST   ; $E6
 	add_tm SWIFT        ; $E7
-	add_tm DEFENSE_CURL ; $E8
+	add_tm FLAME_CHARGE ; $E8
 	add_tm THUNDERPUNCH ; $E9
 	add_tm DREAM_EATER  ; $EA
 	add_tm ZEN_HEADBUTT ; $EB
 	add_tm REST         ; $EC
-	add_tm ATTRACT      ; $ED
+	add_tm IRON_HEAD    ; $ED	;ATTRACT
 	add_tm THIEF        ; $EE
 	add_tm STEEL_WING   ; $EF
 	add_tm FIRE_PUNCH   ; $F0
-	add_tm FURY_CUTTER  ; $F1
-	add_tm NIGHTMARE    ; $F2
+	add_tm SCALD        ; $F1	;FURY_CUTTER
+	add_tm WILD_CHARGE  ; $F2	;NIGHTMARE
 NUM_TMS = const_value - TM01 - 2
 
 	add_hm CUT          ; $F3

@@ -1,13 +1,13 @@
 EggMovePointers:: ; 0x23b11
-	dw BulbasaurEggMoves
+	dw SurskitEggMoves
 	dw NoEggMoves
+	dw LarvestaEggMoves
 	dw NoEggMoves
-	dw CharmanderEggMoves
+	dw SkorupiEggMoves
 	dw NoEggMoves
+	dw CombeeEggMoves
 	dw NoEggMoves
-	dw SquirtleEggMoves
-	dw NoEggMoves
-	dw NoEggMoves
+	dw DurantEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -17,15 +17,15 @@ EggMovePointers:: ; 0x23b11
 	dw PidgeyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw RattataEggMoves
+	dw DewpiderEggMoves
 	dw NoEggMoves
-	dw SpearowEggMoves
-	dw NoEggMoves
-	dw EkansEggMoves
+	dw GrubbinEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SandshrewEggMoves
+	dw SnoverEggMoves
+	dw NoEggMoves
+	dw SnoruntEggMoves
 	dw NoEggMoves
 	dw NidoranFEggMoves
 	dw NoEggMoves
@@ -41,21 +41,21 @@ EggMovePointers:: ; 0x23b11
 	dw NoEggMoves
 	dw ZubatEggMoves
 	dw NoEggMoves
-	dw OddishEggMoves
+	dw NoEggMoves
+	dw MawileEggMoves
+	dw KlefkiEggMoves
+	dw SpritzeeEggMoves
+	dw NoEggMoves
+	dw SwirlixEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ParasEggMoves
+	dw MimikyuEggMoves
+	dw MedititeEggMoves
 	dw NoEggMoves
-	dw VenonatEggMoves
+	dw HawluchaEggMoves
+	dw CroagunkEggMoves
 	dw NoEggMoves
-	dw DiglettEggMoves
-	dw NoEggMoves
-	dw MeowthEggMoves
-	dw NoEggMoves
-	dw PsyduckEggMoves
-	dw NoEggMoves
-	dw MankeyEggMoves
-	dw NoEggMoves
+	dw MienfooEggMoves
 	dw GrowlitheEggMoves
 	dw NoEggMoves
 	dw PoliwagEggMoves
@@ -81,37 +81,37 @@ EggMovePointers:: ; 0x23b11
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw FarfetchDEggMoves
-	dw DoduoEggMoves
 	dw NoEggMoves
-	dw SeelEggMoves
+	dw StuffulEggMoves
 	dw NoEggMoves
-	dw GrimerEggMoves
+	dw ShinxEggMoves
 	dw NoEggMoves
-	dw ShellderEggMoves
+	dw NoEggMoves
+	dw TynamoEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw GastlyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw OnixEggMoves
-	dw DrowzeeEggMoves
+	dw PoochyenaEggMoves
 	dw NoEggMoves
-	dw KrabbyEggMoves
-	dw NoEggMoves
-	dw NoEggMoves
-	dw NoEggMoves
-	dw ExeggcuteEggMoves
-	dw NoEggMoves
-	dw CuboneEggMoves
+	dw SableyeEggMoves
+	dw CorphishEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw LickitungEggMoves
-	dw KoffingEggMoves
+	dw NoEggMoves
+	dw SandileEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
+	dw VullabyEggMoves
+	dw NoEggMoves
+	dw BeldumEggMoves
 	dw NoEggMoves
 	dw RhyhornEggMoves
 	dw NoEggMoves
-	dw ChanseyEggMoves
+	dw NoEggMoves
 	dw TangelaEggMoves
 	dw KangaskhanEggMoves
 	dw HorseaEggMoves
@@ -124,13 +124,13 @@ else
 	dw StaryuEggMoves
 endc
 	dw NoEggMoves
-	dw MrMimeEggMoves
+	dw BronzorEggMoves
 	dw ScytherEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw DhelmiseEggMoves
 	dw PinsirEggMoves
-	dw NoEggMoves
+	dw RuffletEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw LaprasEggMoves
@@ -140,20 +140,20 @@ endc
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw OmanyteEggMoves
 	dw NoEggMoves
-	dw KabutoEggMoves
+	dw YamaskEggMoves
+	dw LitwickEggMoves
 	dw NoEggMoves
 	dw AerodactylEggMoves
-	dw SnorlaxEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw RelicanthEggMoves
 	dw DratiniEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw RockruffEggMoves
 	dw ChikoritaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -163,39 +163,39 @@ endc
 	dw TotodileEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SentretEggMoves
-	dw NoEggMoves
-	dw HoothootEggMoves
-	dw NoEggMoves
-	dw LedybaEggMoves
-	dw NoEggMoves
-	dw SpinarakEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ChinchouEggMoves
+	dw DarumakaEggMoves
 	dw NoEggMoves
-	dw PichuEggMoves
-	dw CleffaEggMoves
-	dw IgglybuffEggMoves
-	dw TogepiEggMoves
 	dw NoEggMoves
+	dw TurtonatorEggMoves
+	dw SalanditEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
+	dw BagonEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
+	dw TrapinchEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
+	dw TrubbishEggMoves
 	dw NatuEggMoves
 	dw NoEggMoves
 	dw MareepEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MarillEggMoves
+	dw MareanieEggMoves
 	dw NoEggMoves
 	dw SudowoodoEggMoves
 	dw NoEggMoves
 	dw HoppipEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw AipomEggMoves
+	dw BudewEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw YanmaEggMoves
+	dw MudkipEggMoves
 	dw WooperEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -205,30 +205,30 @@ endc
 	dw MisdreavusEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw GirafarigEggMoves
-	dw PinecoEggMoves
+	dw NoEggMoves
+	dw HippopotasEggMoves
 	dw NoEggMoves
 	dw DunsparceEggMoves
-	dw GligarEggMoves
+	dw ChinglingEggMoves
 	dw NoEggMoves
 	dw SnubbullEggMoves
 	dw NoEggMoves
-	dw QwilfishEggMoves
+	dw BruxishEggMoves
 	dw NoEggMoves
-	dw ShuckleEggMoves
+	dw ElgyemEggMoves
 	dw HeracrossEggMoves
 	dw SneaselEggMoves
-	dw TeddiursaEggMoves
 	dw NoEggMoves
-	dw SlugmaEggMoves
+	dw SigilyphEggMoves
 	dw NoEggMoves
+	dw LotadEggMoves
 	dw SwinubEggMoves
 	dw NoEggMoves
 	dw CorsolaEggMoves
 	dw RemoraidEggMoves
 	dw NoEggMoves
-	dw DelibirdEggMoves
-	dw MantineEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
 	dw SkarmoryEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves
@@ -237,18 +237,18 @@ endc
 	dw NoEggMoves
 	dw NoEggMoves
 	dw StantlerEggMoves
+	dw TropiusEggMoves
+	dw SkiddoEggMoves
 	dw NoEggMoves
-	dw TyrogueEggMoves
+	dw FeebasEggMoves
 	dw NoEggMoves
-	dw SmoochumEggMoves
-	dw ElekidEggMoves
-	dw MagbyEggMoves
+	dw ClauncherEggMoves
 	dw MiltankEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw LarvitarEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

@@ -26,7 +26,7 @@
 	const STOMP        ; $17
 	const DOUBLE_KICK  ; $18
 	const DRAIN_PUNCH    ; $19
-	const JUMP_KICK    ; $1a
+	const POWERUPPUNCH ; $1a
 	const DISARM_VOICE ; $1b
 	const SAND_ATTACK  ; $1c
 	const HEADBUTT     ; $1d

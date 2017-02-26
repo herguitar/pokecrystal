@@ -124,7 +124,7 @@ UnknownScript_0x18622a:
 	end
 
 BurnedTowerB1FTMEndure:
-	itemball TM_ENDURE
+	itemball TM_SCALD
 
 BurnedTowerB1FBoulder:
 	jumpstd strengthboulder

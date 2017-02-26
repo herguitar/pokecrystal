@@ -112,7 +112,7 @@ NationalParkBugContestParlyzHeal:
 	itemball PARLYZ_HEAL
 
 NationalParkBugContestTMDig:
-	itemball TM_DIG
+	itemball TM_SCALD
 
 NationalParkBugContestHiddenFullHeal:
 	dwb EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL, FULL_HEAL

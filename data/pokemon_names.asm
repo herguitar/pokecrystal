@@ -5,7 +5,7 @@
 	db "SKORUPI@@@"		;"CHARMELEON"
 	db "DRAPION@@@"		;"CHARIZARD@"
 	db "COMBEE@@@@"		;"SQUIRTLE@@"
-	db "VESPIQUEEN"		;"WARTORTLE@"
+	db "VESPIQUEN@"		;"WARTORTLE@"
 	db "DURANT@@@@"		;"BLASTOISE@"
 	db "CATERPIE@@"
 	db "METAPOD@@@"
